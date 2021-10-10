@@ -1,0 +1,1574 @@
+{
+  "DadosModulos": [
+    {
+      "id": "1",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-PEG14",
+      "Potencia": "320",
+      "Vmpp": "37.2",
+      "βvmpp": "-0.4100%",
+      "Voc": "45.4",
+      "βvoc": "-0.3200%"
+    },
+    {
+      "id": "2",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-PEG14",
+      "Potencia": "325",
+      "Vmpp": "37.4",
+      "βvmpp": "-0.4100%",
+      "Voc": "45.6",
+      "βvoc": "-0.3200%"
+    },
+    {
+      "id": "3",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-PEG14",
+      "Potencia": "330",
+      "Vmpp": "37.4",
+      "βvmpp": "-0.4100%",
+      "Voc": "45.8",
+      "βvoc": "-0.3200%"
+    },
+    {
+      "id": "4",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-PEG14",
+      "Potencia": "335",
+      "Vmpp": "37.8",
+      "βvmpp": "-0.4100%",
+      "Voc": "46",
+      "βvoc": "-0.3200%"
+    },
+    {
+      "id": "5",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-PEG14",
+      "Potencia": "340",
+      "Vmpp": "38",
+      "βvmpp": "-0.4100%",
+      "Voc": "46.2",
+      "βvoc": "-0.3200%"
+    },
+    {
+      "id": "6",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-PE15H",
+      "Potencia": "340",
+      "Vmpp": "37.5",
+      "βvmpp": "-0.3800%",
+      "Voc": "46.2",
+      "βvoc": "-0.3100%"
+    },
+    {
+      "id": "7",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-PE15H",
+      "Potencia": "345",
+      "Vmpp": "37.7",
+      "βvmpp": "-0.3800%",
+      "Voc": "46.4",
+      "βvoc": "-0.3100%"
+    },
+    {
+      "id": "8",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-PE15H",
+      "Potencia": "350",
+      "Vmpp": "37.9",
+      "βvmpp": "-0.3800%",
+      "Voc": "46.7",
+      "βvoc": "-0.3100%"
+    },
+    {
+      "id": "9",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-PE15H",
+      "Potencia": "355",
+      "Vmpp": "38.1",
+      "βvmpp": "-0.3800%",
+      "Voc": "47",
+      "βvoc": "-0.3100%"
+    },
+    {
+      "id": "10",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-DE15H(II)",
+      "Potencia": "385",
+      "Vmpp": "40.1",
+      "βvmpp": "-0.3700%",
+      "Voc": "48.5",
+      "βvoc": "-0.2900%"
+    },
+    {
+      "id": "11",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-DE15H(II)",
+      "Potencia": "390",
+      "Vmpp": "40.5",
+      "βvmpp": "-0.3700%",
+      "Voc": "49.7",
+      "βvoc": "-0.2900%"
+    },
+    {
+      "id": "12",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-DE15H(II)",
+      "Potencia": "395",
+      "Vmpp": "40.8",
+      "βvmpp": "-0.3700%",
+      "Voc": "50.1",
+      "βvoc": "-0.2900%"
+    },
+    {
+      "id": "13",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-DE15H(II)",
+      "Potencia": "400",
+      "Vmpp": "41.1",
+      "βvmpp": "-0.3700%",
+      "Voc": "50.4",
+      "βvoc": "-0.2900%"
+    },
+    {
+      "id": "14",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-DE09",
+      "Potencia": "390",
+      "Vmpp": "33.8",
+      "βvmpp": "-0.3400%",
+      "Voc": "40.8",
+      "βvoc": "-0.2500%"
+    },
+    {
+      "id": "15",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-DE09",
+      "Potencia": "395",
+      "Vmpp": "34",
+      "βvmpp": "-0.3400%",
+      "Voc": "41",
+      "βvoc": "-0.2500%"
+    },
+    {
+      "id": "16",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-DE09",
+      "Potencia": "400",
+      "Vmpp": "34.2",
+      "βvmpp": "-0.3400%",
+      "Voc": "41.2",
+      "βvoc": "-0.2500%"
+    },
+    {
+      "id": "17",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-DE09",
+      "Potencia": "405",
+      "Vmpp": "34.4",
+      "βvmpp": "-0.3400%",
+      "Voc": "41.4",
+      "βvoc": "-0.2500%"
+    },
+    {
+      "id": "18",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-DE15M(II)",
+      "Potencia": "390",
+      "Vmpp": "40",
+      "βvmpp": "-0.3600%",
+      "Voc": "48.5",
+      "βvoc": "-0.2600%"
+    },
+    {
+      "id": "19",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-DE15M(II)",
+      "Potencia": "395",
+      "Vmpp": "40.1",
+      "βvmpp": "-0.3600%",
+      "Voc": "48.7",
+      "βvoc": "-0.2600%"
+    },
+    {
+      "id": "20",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-DE15M(II)",
+      "Potencia": "400",
+      "Vmpp": "40.3",
+      "βvmpp": "-0.3600%",
+      "Voc": "49",
+      "βvoc": "-0.2600%"
+    },
+    {
+      "id": "21",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-DE15M(II)",
+      "Potencia": "405",
+      "Vmpp": "40.5",
+      "βvmpp": "-0.3600%",
+      "Voc": "49.2",
+      "βvoc": "-0.2600%"
+    },
+    {
+      "id": "22",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-DE15M(II)",
+      "Potencia": "410",
+      "Vmpp": "40.7",
+      "βvmpp": "-0.3600%",
+      "Voc": "49.4",
+      "βvoc": "-0.2600%"
+    },
+    {
+      "id": "23",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-DE15M(II)",
+      "Potencia": "415",
+      "Vmpp": "40.9",
+      "βvmpp": "-0.3600%",
+      "Voc": "49.6",
+      "βvoc": "-0.2600%"
+    },
+    {
+      "id": "24",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-DEG15MC.20(II)",
+      "Potencia": "390",
+      "Vmpp": "40.2",
+      "βvmpp": "-0.3500%",
+      "Voc": "48.5",
+      "βvoc": "-0.2500%"
+    },
+    {
+      "id": "25",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-DEG15MC.20(II)",
+      "Potencia": "395",
+      "Vmpp": "40.5",
+      "βvmpp": "-0.3500%",
+      "Voc": "48.7",
+      "βvoc": "-0.2500%"
+    },
+    {
+      "id": "26",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-DEG15MC.20(II)",
+      "Potencia": "400",
+      "Vmpp": "40.8",
+      "βvmpp": "-0.3500%",
+      "Voc": "48.9",
+      "βvoc": "-0.2500%"
+    },
+    {
+      "id": "27",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-DEG15MC.20(II)",
+      "Potencia": "405",
+      "Vmpp": "41.1",
+      "βvmpp": "-0.3500%",
+      "Voc": "49.1",
+      "βvoc": "-0.2500%"
+    },
+    {
+      "id": "28",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-DEG15MC.20(II)",
+      "Potencia": "410",
+      "Vmpp": "41.4",
+      "βvmpp": "-0.3500%",
+      "Voc": "49.3",
+      "βvoc": "-0.2500%"
+    },
+    {
+      "id": "29",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-DE17M(II)",
+      "Potencia": "435",
+      "Vmpp": "40.5",
+      "βvmpp": "-0.3400%",
+      "Voc": "49",
+      "βvoc": "-0.2500%"
+    },
+    {
+      "id": "30",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-DE17M(II)",
+      "Potencia": "440",
+      "Vmpp": "40.7",
+      "βvmpp": "-0.3400%",
+      "Voc": "49.2",
+      "βvoc": "-0.2500%"
+    },
+    {
+      "id": "31",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-DE17M(II)",
+      "Potencia": "445",
+      "Vmpp": "40.8",
+      "βvmpp": "-0.3400%",
+      "Voc": "49.4",
+      "βvoc": "-0.2500%"
+    },
+    {
+      "id": "32",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-DE17M(II)",
+      "Potencia": "450",
+      "Vmpp": "41",
+      "βvmpp": "-0.3400%",
+      "Voc": "49.6",
+      "βvoc": "-0.2500%"
+    },
+    {
+      "id": "33",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-DE17M(II)",
+      "Potencia": "455",
+      "Vmpp": "41.2",
+      "βvmpp": "-0.3400%",
+      "Voc": "49.8",
+      "βvoc": "-0.2500%"
+    },
+    {
+      "id": "34",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-DE17M(II)",
+      "Potencia": "460",
+      "Vmpp": "41.3",
+      "βvmpp": "-0.3400%",
+      "Voc": "50",
+      "βvoc": "-0.2500%"
+    },
+    {
+      "id": "35",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-DE19",
+      "Potencia": "530",
+      "Vmpp": "30.8",
+      "βvmpp": "-0.3400%",
+      "Voc": "37.1",
+      "βvoc": "-0.2500%"
+    },
+    {
+      "id": "36",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-DE19",
+      "Potencia": "535",
+      "Vmpp": "31",
+      "βvmpp": "-0.3400%",
+      "Voc": "37.3",
+      "βvoc": "-0.2500%"
+    },
+    {
+      "id": "37",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-DE19",
+      "Potencia": "540",
+      "Vmpp": "31.2",
+      "βvmpp": "-0.3400%",
+      "Voc": "37.5",
+      "βvoc": "-0.2500%"
+    },
+    {
+      "id": "38",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-DE19",
+      "Potencia": "545",
+      "Vmpp": "31.4",
+      "βvmpp": "-0.3400%",
+      "Voc": "37.7",
+      "βvoc": "-0.2500%"
+    },
+    {
+      "id": "39",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-DE19",
+      "Potencia": "550",
+      "Vmpp": "31.6",
+      "βvmpp": "-0.3400%",
+      "Voc": "37.9",
+      "βvoc": "-0.2500%"
+    },
+    {
+      "id": "40",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-DE19",
+      "Potencia": "555",
+      "Vmpp": "31.8",
+      "βvmpp": "-0.3400%",
+      "Voc": "38.1",
+      "βvoc": "-0.2500%"
+    },
+    {
+      "id": "41",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-DE19C.20",
+      "Potencia": "525",
+      "Vmpp": "30.8",
+      "βvmpp": "-0.3400%",
+      "Voc": "37.1",
+      "βvoc": "-0.2500%"
+    },
+    {
+      "id": "42",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-DE19C.20",
+      "Potencia": "530",
+      "Vmpp": "31",
+      "βvmpp": "-0.3400%",
+      "Voc": "37.3",
+      "βvoc": "-0.2500%"
+    },
+    {
+      "id": "43",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-DE19C.20",
+      "Potencia": "535",
+      "Vmpp": "31.2",
+      "βvmpp": "-0.3400%",
+      "Voc": "37.5",
+      "βvoc": "-0.2500%"
+    },
+    {
+      "id": "44",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-DE19C.20",
+      "Potencia": "540",
+      "Vmpp": "31.4",
+      "βvmpp": "-0.3400%",
+      "Voc": "37.7",
+      "βvoc": "-0.2500%"
+    },
+    {
+      "id": "45",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-DE19C.20",
+      "Potencia": "545",
+      "Vmpp": "31.6",
+      "βvmpp": "-0.3400%",
+      "Voc": "37.9",
+      "βvoc": "-0.2500%"
+    },
+    {
+      "id": "46",
+      "Fabricante": "Trina Solar",
+      "Modelo": "TSM-DE19C.20",
+      "Potencia": "550",
+      "Vmpp": "31.8",
+      "βvmpp": "-0.3400%",
+      "Voc": "38.1",
+      "βvoc": "-0.2500%"
+    },
+    {
+      "id": "47",
+      "Fabricante": "BYD",
+      "Modelo": "P6K-36-SÉRIE-5BB",
+      "Potencia": "310",
+      "Vmpp": "36.38",
+      "βvmpp": "-0.3900%",
+      "Voc": "45.79",
+      "βvoc": "-0.3100%"
+    },
+    {
+      "id": "48",
+      "Fabricante": "BYD",
+      "Modelo": "P6K-36-SÉRIE-5BB",
+      "Potencia": "315",
+      "Vmpp": "36.58",
+      "βvmpp": "-0.3900%",
+      "Voc": "46.09",
+      "βvoc": "-0.3100%"
+    },
+    {
+      "id": "49",
+      "Fabricante": "BYD",
+      "Modelo": "P6K-36-SÉRIE-5BB",
+      "Potencia": "320",
+      "Vmpp": "36.78",
+      "βvmpp": "-0.3900%",
+      "Voc": "46.39",
+      "βvoc": "-0.3100%"
+    },
+    {
+      "id": "50",
+      "Fabricante": "BYD",
+      "Modelo": "P6K-36-SÉRIE-5BB",
+      "Potencia": "325",
+      "Vmpp": "36.98",
+      "βvmpp": "-0.3900%",
+      "Voc": "46.69",
+      "βvoc": "-0.3100%"
+    },
+    {
+      "id": "51",
+      "Fabricante": "BYD",
+      "Modelo": "P6K-36-SÉRIE-5BB",
+      "Potencia": "330",
+      "Vmpp": "37.16",
+      "βvmpp": "-0.3900%",
+      "Voc": "46.98",
+      "βvoc": "-0.3100%"
+    },
+    {
+      "id": "52",
+      "Fabricante": "BYD",
+      "Modelo": "P6K-36-SÉRIE-5BB",
+      "Potencia": "335",
+      "Vmpp": "37.35",
+      "βvmpp": "-0.3900%",
+      "Voc": "47.28",
+      "βvoc": "-0.3100%"
+    },
+    {
+      "id": "53",
+      "Fabricante": "BYD",
+      "Modelo": "P6K-36-SÉRIE-5BB",
+      "Potencia": "340",
+      "Vmpp": "37.53",
+      "βvmpp": "-0.3900%",
+      "Voc": "47.58",
+      "βvoc": "-0.3100%"
+    },
+    {
+      "id": "54",
+      "Fabricante": "BYD",
+      "Modelo": "PIK-36-SÉRIE-5BB",
+      "Potencia": "335",
+      "Vmpp": "38.1",
+      "βvmpp": "-0.3500%",
+      "Voc": "45.44",
+      "βvoc": "-0.2850%"
+    },
+    {
+      "id": "55",
+      "Fabricante": "BYD",
+      "Modelo": "PIK-36-SÉRIE-5BB",
+      "Potencia": "340",
+      "Vmpp": "38.36",
+      "βvmpp": "-0.3500%",
+      "Voc": "45.69",
+      "βvoc": "-0.2850%"
+    },
+    {
+      "id": "56",
+      "Fabricante": "BYD",
+      "Modelo": "PIK-36-SÉRIE-5BB",
+      "Potencia": "345",
+      "Vmpp": "38.62",
+      "βvmpp": "-0.3500%",
+      "Voc": "45.94",
+      "βvoc": "-0.2850%"
+    },
+    {
+      "id": "57",
+      "Fabricante": "BYD",
+      "Modelo": "PIK-36-SÉRIE-5BB",
+      "Potencia": "350",
+      "Vmpp": "38.87",
+      "βvmpp": "-0.3500%",
+      "Voc": "46.19",
+      "βvoc": "-0.2850%"
+    },
+    {
+      "id": "58",
+      "Fabricante": "BYD",
+      "Modelo": "M6K-36-SÉRIE-5BB",
+      "Potencia": "360",
+      "Vmpp": "39.2",
+      "βvmpp": "-0.3800%",
+      "Voc": "46.6",
+      "βvoc": "-0.3600%"
+    },
+    {
+      "id": "59",
+      "Fabricante": "BYD",
+      "Modelo": "M6K-36-SÉRIE-5BB",
+      "Potencia": "365",
+      "Vmpp": "39.6",
+      "βvmpp": "-0.3800%",
+      "Voc": "46.9",
+      "βvoc": "-0.3600%"
+    },
+    {
+      "id": "60",
+      "Fabricante": "BYD",
+      "Modelo": "M6K-36-SÉRIE-5BB",
+      "Potencia": "370",
+      "Vmpp": "40",
+      "βvmpp": "-0.3800%",
+      "Voc": "47",
+      "βvoc": "-0.3600%"
+    },
+    {
+      "id": "61",
+      "Fabricante": "BYD",
+      "Modelo": "M6K-36-SÉRIE-5BB",
+      "Potencia": "375",
+      "Vmpp": "40.4",
+      "βvmpp": "-0.3800%",
+      "Voc": "47.3",
+      "βvoc": "-0.3600%"
+    },
+    {
+      "id": "62",
+      "Fabricante": "BYD",
+      "Modelo": "M6K-36-SÉRIE-5BB",
+      "Potencia": "380",
+      "Vmpp": "40.7",
+      "βvmpp": "-0.3800%",
+      "Voc": "47.6",
+      "βvoc": "-0.3600%"
+    },
+    {
+      "id": "63",
+      "Fabricante": "BYD",
+      "Modelo": "M6K-36-SÉRIE-5BB",
+      "Potencia": "385",
+      "Vmpp": "41.2",
+      "βvmpp": "-0.3800%",
+      "Voc": "47.9",
+      "βvoc": "-0.3600%"
+    },
+    {
+      "id": "64",
+      "Fabricante": "BYD",
+      "Modelo": "M7K-36-SÉRIE-5BB",
+      "Potencia": "380",
+      "Vmpp": "40",
+      "βvmpp": "-0.3700%",
+      "Voc": "48.6",
+      "βvoc": "-0.0280%"
+    },
+    {
+      "id": "65",
+      "Fabricante": "BYD",
+      "Modelo": "M7K-36-SÉRIE-5BB",
+      "Potencia": "385",
+      "Vmpp": "40.4",
+      "βvmpp": "-0.3700%",
+      "Voc": "49",
+      "βvoc": "-0.0280%"
+    },
+    {
+      "id": "66",
+      "Fabricante": "BYD",
+      "Modelo": "M7K-36-SÉRIE-5BB",
+      "Potencia": "390",
+      "Vmpp": "40.9",
+      "βvmpp": "-0.3700%",
+      "Voc": "49.3",
+      "βvoc": "-0.0280%"
+    },
+    {
+      "id": "67",
+      "Fabricante": "BYD",
+      "Modelo": "M7K-36-SÉRIE-5BB",
+      "Potencia": "395",
+      "Vmpp": "41.4",
+      "βvmpp": "-0.3700%",
+      "Voc": "49.7",
+      "βvoc": "-0.0280%"
+    },
+    {
+      "id": "68",
+      "Fabricante": "BYD",
+      "Modelo": "M7K-36-SÉRIE-5BB",
+      "Potencia": "400",
+      "Vmpp": "41.9",
+      "βvmpp": "-0.3700%",
+      "Voc": "50",
+      "βvoc": "-0.0280%"
+    },
+    {
+      "id": "69",
+      "Fabricante": "Risen Solar",
+      "Modelo": "RSM144-6",
+      "Potencia": "330",
+      "Vmpp": "38.1",
+      "βvmpp": "-0.3900%",
+      "Voc": "46.3",
+      "βvoc": "-0.3200%"
+    },
+    {
+      "id": "70",
+      "Fabricante": "Risen Solar",
+      "Modelo": "RSM144-6",
+      "Potencia": "335",
+      "Vmpp": "38.4",
+      "βvmpp": "-0.3900%",
+      "Voc": "46.5",
+      "βvoc": "-0.3200%"
+    },
+    {
+      "id": "71",
+      "Fabricante": "Risen Solar",
+      "Modelo": "RSM144-6",
+      "Potencia": "340",
+      "Vmpp": "38.6",
+      "βvmpp": "-0.3900%",
+      "Voc": "46.8",
+      "βvoc": "-0.3200%"
+    },
+    {
+      "id": "72",
+      "Fabricante": "Risen Solar",
+      "Modelo": "RSM144-6",
+      "Potencia": "345",
+      "Vmpp": "39",
+      "βvmpp": "-0.3900%",
+      "Voc": "47.1",
+      "βvoc": "-0.3200%"
+    },
+    {
+      "id": "73",
+      "Fabricante": "Risen Solar",
+      "Modelo": "RSM144-6-P",
+      "Potencia": "335",
+      "Vmpp": "38.6",
+      "βvmpp": "-0.3900%",
+      "Voc": "46.1",
+      "βvoc": "-0.3200%"
+    },
+    {
+      "id": "74",
+      "Fabricante": "Risen Solar",
+      "Modelo": "RSM144-6-P",
+      "Potencia": "340",
+      "Vmpp": "38.7",
+      "βvmpp": "-0.3900%",
+      "Voc": "46.3",
+      "βvoc": "-0.3200%"
+    },
+    {
+      "id": "75",
+      "Fabricante": "Risen Solar",
+      "Modelo": "RSM144-6-P",
+      "Potencia": "345",
+      "Vmpp": "38.8",
+      "βvmpp": "-0.3900%",
+      "Voc": "46.5",
+      "βvoc": "-0.3200%"
+    },
+    {
+      "id": "76",
+      "Fabricante": "Risen Solar",
+      "Modelo": "RSM144-6-P",
+      "Potencia": "350",
+      "Vmpp": "38.95",
+      "βvmpp": "-0.3900%",
+      "Voc": "46.7",
+      "βvoc": "-0.3200%"
+    },
+    {
+      "id": "77",
+      "Fabricante": "Risen Solar",
+      "Modelo": "RSM144-6-P",
+      "Potencia": "355",
+      "Vmpp": "39.1",
+      "βvmpp": "-0.3900%",
+      "Voc": "46.9",
+      "βvoc": "-0.3200%"
+    },
+    {
+      "id": "78",
+      "Fabricante": "Risen Solar",
+      "Modelo": "RSM156-6-M",
+      "Potencia": "425",
+      "Vmpp": "43.5",
+      "βvmpp": "-0.3700%",
+      "Voc": "52.23",
+      "βvoc": "-0.2900%"
+    },
+    {
+      "id": "79",
+      "Fabricante": "Risen Solar",
+      "Modelo": "RSM156-6-M",
+      "Potencia": "430",
+      "Vmpp": "43.6",
+      "βvmpp": "-0.3700%",
+      "Voc": "52.38",
+      "βvoc": "-0.2900%"
+    },
+    {
+      "id": "80",
+      "Fabricante": "Risen Solar",
+      "Modelo": "RSM156-6-M",
+      "Potencia": "435",
+      "Vmpp": "43.7",
+      "βvmpp": "-0.3700%",
+      "Voc": "52.5",
+      "βvoc": "-0.2900%"
+    },
+    {
+      "id": "81",
+      "Fabricante": "Risen Solar",
+      "Modelo": "RSM156-6-M",
+      "Potencia": "440",
+      "Vmpp": "43.8",
+      "βvmpp": "-0.3700%",
+      "Voc": "52.62",
+      "βvoc": "-0.2900%"
+    },
+    {
+      "id": "82",
+      "Fabricante": "Risen Solar",
+      "Modelo": "RSM156-6-M",
+      "Potencia": "445",
+      "Vmpp": "43.9",
+      "βvmpp": "-0.3700%",
+      "Voc": "52.7",
+      "βvoc": "-0.2900%"
+    },
+    {
+      "id": "83",
+      "Fabricante": "Risen Solar",
+      "Modelo": "RSM144-7-M",
+      "Potencia": "435",
+      "Vmpp": "41.05",
+      "βvmpp": "-0.3700%",
+      "Voc": "49.4",
+      "βvoc": "-0.2900%"
+    },
+    {
+      "id": "84",
+      "Fabricante": "Risen Solar",
+      "Modelo": "RSM144-7-M",
+      "Potencia": "440",
+      "Vmpp": "41.13",
+      "βvmpp": "-0.3700%",
+      "Voc": "49.5",
+      "βvoc": "-0.2900%"
+    },
+    {
+      "id": "85",
+      "Fabricante": "Risen Solar",
+      "Modelo": "RSM144-7-M",
+      "Potencia": "445",
+      "Vmpp": "41.25",
+      "βvmpp": "-0.3700%",
+      "Voc": "49.6",
+      "βvoc": "-0.2900%"
+    },
+    {
+      "id": "86",
+      "Fabricante": "Risen Solar",
+      "Modelo": "RSM144-7-M",
+      "Potencia": "450",
+      "Vmpp": "41.3",
+      "βvmpp": "-0.3700%",
+      "Voc": "49.7",
+      "βvoc": "-0.2900%"
+    },
+    {
+      "id": "87",
+      "Fabricante": "Risen Solar",
+      "Modelo": "RSM144-7-M",
+      "Potencia": "455",
+      "Vmpp": "41.4",
+      "βvmpp": "-0.3700%",
+      "Voc": "49.8",
+      "βvoc": "-0.2900%"
+    },
+    {
+      "id": "88",
+      "Fabricante": "Canadian Solar",
+      "Modelo": "CS6P-P",
+      "Potencia": "260",
+      "Vmpp": "30.4",
+      "βvmpp": "-0.4100%",
+      "Voc": "37.5",
+      "βvoc": "-0.3100%"
+    },
+    {
+      "id": "89",
+      "Fabricante": "Canadian Solar",
+      "Modelo": "CS6P-P",
+      "Potencia": "265",
+      "Vmpp": "30.6",
+      "βvmpp": "-0.4100%",
+      "Voc": "37.7",
+      "βvoc": "-0.3100%"
+    },
+    {
+      "id": "90",
+      "Fabricante": "Canadian Solar",
+      "Modelo": "CS6P-P",
+      "Potencia": "270",
+      "Vmpp": "30.8",
+      "βvmpp": "-0.4100%",
+      "Voc": "37.9",
+      "βvoc": "-0.3100%"
+    },
+    {
+      "id": "91",
+      "Fabricante": "Canadian Solar",
+      "Modelo": "CS6K-P",
+      "Potencia": "270",
+      "Vmpp": "30.8",
+      "βvmpp": "-0.4000%",
+      "Voc": "37.9",
+      "βvoc": "-0.3100%"
+    },
+    {
+      "id": "92",
+      "Fabricante": "Canadian Solar",
+      "Modelo": "CS6K-P",
+      "Potencia": "275",
+      "Vmpp": "31",
+      "βvmpp": "-0.4000%",
+      "Voc": "38",
+      "βvoc": "-0.3100%"
+    },
+    {
+      "id": "93",
+      "Fabricante": "Canadian Solar",
+      "Modelo": "CS6K-P",
+      "Potencia": "280",
+      "Vmpp": "31.3",
+      "βvmpp": "-0.4000%",
+      "Voc": "38.2",
+      "βvoc": "-0.3100%"
+    },
+    {
+      "id": "94",
+      "Fabricante": "Canadian Solar",
+      "Modelo": "CS6U-P",
+      "Potencia": "340",
+      "Vmpp": "37.6",
+      "βvmpp": "-0.3900%",
+      "Voc": "45.9",
+      "βvoc": "-0.2900%"
+    },
+    {
+      "id": "95",
+      "Fabricante": "Canadian Solar",
+      "Modelo": "CS6U-P",
+      "Potencia": "345",
+      "Vmpp": "37.8",
+      "βvmpp": "-0.3900%",
+      "Voc": "460",
+      "βvoc": "-0.2900%"
+    },
+    {
+      "id": "96",
+      "Fabricante": "Canadian Solar",
+      "Modelo": "CS6U-P",
+      "Potencia": "350",
+      "Vmpp": "38.1",
+      "βvmpp": "-0.3900%",
+      "Voc": "46.2",
+      "βvoc": "-0.2900%"
+    },
+    {
+      "id": "97",
+      "Fabricante": "Canadian Solar",
+      "Modelo": "CS6U-P",
+      "Potencia": "325",
+      "Vmpp": "37",
+      "βvmpp": "-0.4000%",
+      "Voc": "45.5",
+      "βvoc": "-0.3100%"
+    },
+    {
+      "id": "98",
+      "Fabricante": "Canadian Solar",
+      "Modelo": "CS6U-P",
+      "Potencia": "330",
+      "Vmpp": "37.2",
+      "βvmpp": "-0.4000%",
+      "Voc": "45.6",
+      "βvoc": "-0.3100%"
+    },
+    {
+      "id": "99",
+      "Fabricante": "Canadian Solar",
+      "Modelo": "CS6U-P",
+      "Potencia": "335",
+      "Vmpp": "37.4",
+      "βvmpp": "-0.4000%",
+      "Voc": "45.8",
+      "βvoc": "-0.3100%"
+    },
+    {
+      "id": "100",
+      "Fabricante": "Astronergy",
+      "Modelo": "CHSM6612M/HV",
+      "Potencia": "335",
+      "Vmpp": "37.82",
+      "βvmpp": "-0.3760%",
+      "Voc": "45.98",
+      "βvoc": "-0.2820%"
+    },
+    {
+      "id": "101",
+      "Fabricante": "Astronergy",
+      "Modelo": "CHSM6612M/HV",
+      "Potencia": "340",
+      "Vmpp": "38.08",
+      "βvmpp": "-0.3760%",
+      "Voc": "46.38",
+      "βvoc": "-0.2820%"
+    },
+    {
+      "id": "102",
+      "Fabricante": "Astronergy",
+      "Modelo": "CHSM6612M/HV",
+      "Potencia": "345",
+      "Vmpp": "38.34",
+      "βvmpp": "-0.3760%",
+      "Voc": "46.7",
+      "βvoc": "-0.2820%"
+    },
+    {
+      "id": "103",
+      "Fabricante": "Astronergy",
+      "Modelo": "CHSM6612M/HV",
+      "Potencia": "350",
+      "Vmpp": "38.58",
+      "βvmpp": "-0.3760%",
+      "Voc": "47.01",
+      "βvoc": "-0.2820%"
+    },
+    {
+      "id": "104",
+      "Fabricante": "Astronergy",
+      "Modelo": "CHSM6612P/HV",
+      "Potencia": "330",
+      "Vmpp": "37.15",
+      "βvmpp": "-0.4080%",
+      "Voc": "45.86",
+      "βvoc": "-0.3110%"
+    },
+    {
+      "id": "105",
+      "Fabricante": "Astronergy",
+      "Modelo": "CHSM6612P/HV",
+      "Potencia": "335",
+      "Vmpp": "37.26",
+      "βvmpp": "-0.4080%",
+      "Voc": "45.98",
+      "βvoc": "-0.3110%"
+    },
+    {
+      "id": "106",
+      "Fabricante": "Astronergy",
+      "Modelo": "CHSM6612P/HV",
+      "Potencia": "340",
+      "Vmpp": "37.33",
+      "βvmpp": "-0.4080%",
+      "Voc": "46.16",
+      "βvoc": "-0.3110%"
+    },
+    {
+      "id": "107",
+      "Fabricante": "Astronergy",
+      "Modelo": "CHSM6612P/HV",
+      "Potencia": "345",
+      "Vmpp": "37.38",
+      "βvmpp": "-0.4080%",
+      "Voc": "46.37",
+      "βvoc": "-0.3110%"
+    },
+    {
+      "id": "108",
+      "Fabricante": "Astronergy",
+      "Modelo": "CHSM6612P",
+      "Potencia": "340",
+      "Vmpp": "37.33",
+      "βvmpp": "-0.4080%",
+      "Voc": "46.16",
+      "βvoc": "-0.3110%"
+    },
+    {
+      "id": "109",
+      "Fabricante": "Astronergy",
+      "Modelo": "CHSM6612P",
+      "Potencia": "345",
+      "Vmpp": "37.38",
+      "βvmpp": "-0.4080%",
+      "Voc": "46.37",
+      "βvoc": "-0.3110%"
+    },
+    {
+      "id": "110",
+      "Fabricante": "Astronergy",
+      "Modelo": "CHSM6612P",
+      "Potencia": "350",
+      "Vmpp": "37.48",
+      "βvmpp": "-0.4080%",
+      "Voc": "46.57",
+      "βvoc": "-0.3110%"
+    },
+    {
+      "id": "111",
+      "Fabricante": "Astronergy",
+      "Modelo": "CHSM72M-HC",
+      "Potencia": "375",
+      "Vmpp": "39.94",
+      "βvmpp": "-0.3528%",
+      "Voc": "47.89",
+      "βvoc": "-0.2769%"
+    },
+    {
+      "id": "112",
+      "Fabricante": "Astronergy",
+      "Modelo": "CHSM72M-HC",
+      "Potencia": "380",
+      "Vmpp": "40.26",
+      "βvmpp": "-0.3528%",
+      "Voc": "48.18",
+      "βvoc": "-0.2769%"
+    },
+    {
+      "id": "113",
+      "Fabricante": "Astronergy",
+      "Modelo": "CHSM72M-HC",
+      "Potencia": "385",
+      "Vmpp": "40.58",
+      "βvmpp": "-0.3528%",
+      "Voc": "48.47",
+      "βvoc": "-0.2769%"
+    },
+    {
+      "id": "114",
+      "Fabricante": "Astronergy",
+      "Modelo": "CHSM72M-HC",
+      "Potencia": "390",
+      "Vmpp": "40.81",
+      "βvmpp": "-0.3528%",
+      "Voc": "48.7",
+      "βvoc": "-0.2769%"
+    },
+    {
+      "id": "115",
+      "Fabricante": "Astronergy",
+      "Modelo": "CHSM72M-HC",
+      "Potencia": "395",
+      "Vmpp": "41.07",
+      "βvmpp": "-0.3528%",
+      "Voc": "48.98",
+      "βvoc": "-0.2769%"
+    },
+    {
+      "id": "116",
+      "Fabricante": "Astronergy",
+      "Modelo": "CHSM72M-HC",
+      "Potencia": "405",
+      "Vmpp": "41.59",
+      "βvmpp": "-0.3800%",
+      "Voc": "49.53",
+      "βvoc": "-0.2800%"
+    },
+    {
+      "id": "117",
+      "Fabricante": "Astronergy",
+      "Modelo": "CHSM72M-HC",
+      "Potencia": "410",
+      "Vmpp": "41.85",
+      "βvmpp": "-0.3800%",
+      "Voc": "49.8",
+      "βvoc": "-0.2800%"
+    },
+    {
+      "id": "118",
+      "Fabricante": "Astronergy",
+      "Modelo": "CHSM72M-HC",
+      "Potencia": "415",
+      "Vmpp": "42.11",
+      "βvmpp": "-0.3800%",
+      "Voc": "50.06",
+      "βvoc": "-0.2800%"
+    },
+    {
+      "id": "119",
+      "Fabricante": "Astronergy",
+      "Modelo": "CHSM72M-HC",
+      "Potencia": "420",
+      "Vmpp": "42.35",
+      "βvmpp": "-0.3800%",
+      "Voc": "50.32",
+      "βvoc": "-0.2800%"
+    },
+    {
+      "id": "120",
+      "Fabricante": "GCL",
+      "Modelo": "P6/72H",
+      "Potencia": "340",
+      "Vmpp": "38.2",
+      "βvmpp": "-0.3900%",
+      "Voc": "46.6",
+      "βvoc": "-0.3000%"
+    },
+    {
+      "id": "121",
+      "Fabricante": "GCL",
+      "Modelo": "P6/72H",
+      "Potencia": "345",
+      "Vmpp": "38.9",
+      "βvmpp": "-0.3900%",
+      "Voc": "47.3",
+      "βvoc": "-0.3000%"
+    },
+    {
+      "id": "122",
+      "Fabricante": "GCL",
+      "Modelo": "P6/72H",
+      "Potencia": "350",
+      "Vmpp": "39.2",
+      "βvmpp": "-0.3900%",
+      "Voc": "47.6",
+      "βvoc": "-0.3000%"
+    },
+    {
+      "id": "123",
+      "Fabricante": "GCL",
+      "Modelo": "P6/72H",
+      "Potencia": "355",
+      "Vmpp": "39.49",
+      "βvmpp": "-0.3900%",
+      "Voc": "47.9",
+      "βvoc": "-0.3000%"
+    },
+    {
+      "id": "124",
+      "Fabricante": "GCL",
+      "Modelo": "P6/72H",
+      "Potencia": "360",
+      "Vmpp": "39.78",
+      "βvmpp": "-0.3900%",
+      "Voc": "48.2",
+      "βvoc": "-0.3000%"
+    },
+    {
+      "id": "125",
+      "Fabricante": "GCL",
+      "Modelo": "P6/72H",
+      "Potencia": "365",
+      "Vmpp": "40.11",
+      "βvmpp": "-0.3900%",
+      "Voc": "48.5",
+      "βvoc": "-0.3000%"
+    },
+    {
+      "id": "126",
+      "Fabricante": "GCL",
+      "Modelo": "P6/72H",
+      "Potencia": "370",
+      "Vmpp": "40.4",
+      "βvmpp": "-0.3900%",
+      "Voc": "48.8",
+      "βvoc": "-0.3000%"
+    },
+    {
+      "id": "127",
+      "Fabricante": "GCL",
+      "Modelo": "P6/72H",
+      "Potencia": "375",
+      "Vmpp": "40.68",
+      "βvmpp": "-0.3900%",
+      "Voc": "49.1",
+      "βvoc": "-0.3000%"
+    },
+    {
+      "id": "128",
+      "Fabricante": "GCL",
+      "Modelo": "P6/72",
+      "Potencia": "310",
+      "Vmpp": "37",
+      "βvmpp": "-0.4100%",
+      "Voc": "45.4",
+      "βvoc": "-0.3200%"
+    },
+    {
+      "id": "129",
+      "Fabricante": "GCL",
+      "Modelo": "P6/72",
+      "Potencia": "315",
+      "Vmpp": "37.2",
+      "βvmpp": "-0.4100%",
+      "Voc": "45.6",
+      "βvoc": "-0.3200%"
+    },
+    {
+      "id": "130",
+      "Fabricante": "GCL",
+      "Modelo": "P6/72",
+      "Potencia": "320",
+      "Vmpp": "37.4",
+      "βvmpp": "-0.4100%",
+      "Voc": "45.8",
+      "βvoc": "-0.3200%"
+    },
+    {
+      "id": "131",
+      "Fabricante": "GCL",
+      "Modelo": "P6/72",
+      "Potencia": "325",
+      "Vmpp": "37.6",
+      "βvmpp": "-0.4100%",
+      "Voc": "46",
+      "βvoc": "-0.3200%"
+    },
+    {
+      "id": "132",
+      "Fabricante": "GCL",
+      "Modelo": "P6/72",
+      "Potencia": "330",
+      "Vmpp": "37.8",
+      "βvmpp": "-0.4100%",
+      "Voc": "46.2",
+      "βvoc": "-0.3200%"
+    },
+    {
+      "id": "133",
+      "Fabricante": "JINKO",
+      "Modelo": "HC72P-V",
+      "Potencia": "325",
+      "Vmpp": "37.6",
+      "βvmpp": "-0.3800%",
+      "Voc": "46.7",
+      "βvoc": "-0.3100%"
+    },
+    {
+      "id": "134",
+      "Fabricante": "JINKO",
+      "Modelo": "HC72P-V",
+      "Potencia": "330",
+      "Vmpp": "37.8",
+      "βvmpp": "-0.3800%",
+      "Voc": "46.9",
+      "βvoc": "-0.3100%"
+    },
+    {
+      "id": "135",
+      "Fabricante": "JINKO",
+      "Modelo": "HC72P-V",
+      "Potencia": "335",
+      "Vmpp": "38",
+      "βvmpp": "-0.3800%",
+      "Voc": "47.2",
+      "βvoc": "-0.3100%"
+    },
+    {
+      "id": "136",
+      "Fabricante": "JINKO",
+      "Modelo": "HC72P-V",
+      "Potencia": "340",
+      "Vmpp": "38.2",
+      "βvmpp": "-0.3800%",
+      "Voc": "47.5",
+      "βvoc": "-0.3100%"
+    },
+    {
+      "id": "137",
+      "Fabricante": "JINKO",
+      "Modelo": "HC72P-V",
+      "Potencia": "345",
+      "Vmpp": "38.4",
+      "βvmpp": "-0.3800%",
+      "Voc": "47.8",
+      "βvoc": "-0.3100%"
+    },
+    {
+      "id": "138",
+      "Fabricante": "JINKO",
+      "Modelo": "JKMP-60",
+      "Potencia": "245",
+      "Vmpp": "30.1",
+      "βvmpp": "-0.4100%",
+      "Voc": "37.5",
+      "βvoc": "-0.3100%"
+    },
+    {
+      "id": "139",
+      "Fabricante": "JINKO",
+      "Modelo": "JKMP-60",
+      "Potencia": "250",
+      "Vmpp": "30.5",
+      "βvmpp": "-0.4100%",
+      "Voc": "37.7",
+      "βvoc": "-0.3100%"
+    },
+    {
+      "id": "140",
+      "Fabricante": "JINKO",
+      "Modelo": "JKMP-60",
+      "Potencia": "255",
+      "Vmpp": "30.8",
+      "βvmpp": "-0.4100%",
+      "Voc": "38",
+      "βvoc": "-0.3100%"
+    },
+    {
+      "id": "141",
+      "Fabricante": "JINKO",
+      "Modelo": "JKMP-60",
+      "Potencia": "260",
+      "Vmpp": "31.1",
+      "βvmpp": "-0.4100%",
+      "Voc": "38.1",
+      "βvoc": "-0.3100%"
+    },
+    {
+      "id": "142",
+      "Fabricante": "JINKO",
+      "Modelo": "JKMP-60",
+      "Potencia": "265",
+      "Vmpp": "31.4",
+      "βvmpp": "-0.4100%",
+      "Voc": "38.6",
+      "βvoc": "-0.3100%"
+    },
+    {
+      "id": "143",
+      "Fabricante": "JA SOLA",
+      "Modelo": "JAM72S01",
+      "Potencia": "340",
+      "Vmpp": "38.18",
+      "βvmpp": "-0.3900%",
+      "Voc": "46.86",
+      "βvoc": "-0.3000%"
+    },
+    {
+      "id": "144",
+      "Fabricante": "JA SOLA",
+      "Modelo": "JAM72S01",
+      "Potencia": "345",
+      "Vmpp": "38.39",
+      "βvmpp": "-0.3900%",
+      "Voc": "47.05",
+      "βvoc": "-0.3000%"
+    },
+    {
+      "id": "145",
+      "Fabricante": "JA SOLA",
+      "Modelo": "JAM72S01",
+      "Potencia": "350",
+      "Vmpp": "38.58",
+      "βvmpp": "-0.3900%",
+      "Voc": "47.25",
+      "βvoc": "-0.3000%"
+    },
+    {
+      "id": "146",
+      "Fabricante": "JA SOLA",
+      "Modelo": "JAM72S01",
+      "Potencia": "355",
+      "Vmpp": "38.76",
+      "βvmpp": "-0.3900%",
+      "Voc": "47.45",
+      "βvoc": "-0.3000%"
+    },
+    {
+      "id": "147",
+      "Fabricante": "JA SOLA",
+      "Modelo": "JAM72S01",
+      "Potencia": "360",
+      "Vmpp": "38.96",
+      "βvmpp": "-0.3900%",
+      "Voc": "47.66",
+      "βvoc": "-0.3000%"
+    },
+    {
+      "id": "148",
+      "Fabricante": "JA SOLA",
+      "Modelo": "JAM72S01/PR",
+      "Potencia": "350",
+      "Vmpp": "38.58",
+      "βvmpp": "-0.3800%",
+      "Voc": "47.24",
+      "βvoc": "-0.3000%"
+    },
+    {
+      "id": "149",
+      "Fabricante": "JA SOLA",
+      "Modelo": "JAM72S01/PR",
+      "Potencia": "355",
+      "Vmpp": "38.76",
+      "βvmpp": "-0.3800%",
+      "Voc": "47.45",
+      "βvoc": "-0.3000%"
+    },
+    {
+      "id": "150",
+      "Fabricante": "JA SOLA",
+      "Modelo": "JAM72S01/PR",
+      "Potencia": "360",
+      "Vmpp": "38.96",
+      "βvmpp": "-0.3800%",
+      "Voc": "47.66",
+      "βvoc": "-0.3000%"
+    },
+    {
+      "id": "151",
+      "Fabricante": "JA SOLA",
+      "Modelo": "JAM72S01/PR",
+      "Potencia": "365",
+      "Vmpp": "39.21",
+      "βvmpp": "-0.3800%",
+      "Voc": "47.93",
+      "βvoc": "-0.3000%"
+    },
+    {
+      "id": "152",
+      "Fabricante": "JA SOLA",
+      "Modelo": "JAM72S01/PR",
+      "Potencia": "370",
+      "Vmpp": "39.45",
+      "βvmpp": "-0.3800%",
+      "Voc": "48.18",
+      "βvoc": "-0.3000%"
+    },
+    {
+      "id": "153",
+      "Fabricante": "JA SOLA",
+      "Modelo": "JAM72S03/PR",
+      "Potencia": "360",
+      "Vmpp": "38.73",
+      "βvmpp": "-0.3600%",
+      "Voc": "46.98",
+      "βvoc": "-0.2890%"
+    },
+    {
+      "id": "154",
+      "Fabricante": "JA SOLA",
+      "Modelo": "JAM72S03/PR",
+      "Potencia": "365",
+      "Vmpp": "39.05",
+      "βvmpp": "-0.3600%",
+      "Voc": "47.3",
+      "βvoc": "-0.2890%"
+    },
+    {
+      "id": "155",
+      "Fabricante": "JA SOLA",
+      "Modelo": "JAM72S03/PR",
+      "Potencia": "370",
+      "Vmpp": "39.36",
+      "βvmpp": "-0.3600%",
+      "Voc": "47.56",
+      "βvoc": "-0.2890%"
+    },
+    {
+      "id": "156",
+      "Fabricante": "JA SOLA",
+      "Modelo": "JAM72S03/PR",
+      "Potencia": "375",
+      "Vmpp": "39.58",
+      "βvmpp": "-0.3600%",
+      "Voc": "47.78",
+      "βvoc": "-0.2890%"
+    },
+    {
+      "id": "157",
+      "Fabricante": "JA SOLA",
+      "Modelo": "JAM72S03/PR",
+      "Potencia": "380",
+      "Vmpp": "39.8",
+      "βvmpp": "-0.3600%",
+      "Voc": "48.05",
+      "βvoc": "-0.2890%"
+    }
+  ]
+}
