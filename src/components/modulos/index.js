@@ -101,6 +101,18 @@ class ModulosComponent extends React.Component {
         }
         
         var criarFiltoValores = this.state.modulos.filter(buscarDados);                
+
+        var VmppModulosSelcionado= criarFiltoValores.map(v => v.Vmpp);
+        var βvmppModulosSelcionado = criarFiltoValores.map(v => v.βvmpp);
+        var VocModulosSelcionado = criarFiltoValores.map(v => v.Voc);
+        var βvocModulosSelcionado = criarFiltoValores.map(v => v.βvoc);
+
+        localStorage.setItem('VmppModulosSelcionado', VmppModulosSelcionado);
+        localStorage.setItem('βvmppModulosSelcionado', βvmppModulosSelcionado);
+        localStorage.setItem('VocModulosSelcionado', VocModulosSelcionado);
+        localStorage.setItem('βvocModulosSelcionado', βvocModulosSelcionado);
+
+
         return(
             <div>
                 <div>

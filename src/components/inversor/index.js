@@ -7,10 +7,24 @@ class InversoresComponent extends React.Component {
         super(props);
         this.state = {
             inversor: 'Inversor',
+            tempMaxima: 70,
+            tempMinima: 0,
             inversores: [],
         };
         this.handleChangeInversor = this.handleChangeInversor.bind(this);
+        this.handleChangeTempMaxima = this.handleChangeTempMaxima.bind(this);
+        this.handleChangeTempMinima = this.handleChangeTempMinima.bind(this);
+
     }
+
+    handleChangeTempMaxima(event){
+        this.setState({tempMaxima: event.target.value});
+    }
+
+    handleChangeTempMinima(event){
+        this.setState({tempMinima: event.target.value});
+    }
+
     handleChangeInversor(event){
         this.setState({inversor: event.target.value});
     }
@@ -41,23 +55,51 @@ class InversoresComponent extends React.Component {
             }
         }
 
-        var CriarFiltroValorsInversores = this.state.inversores.filter(buscadorInversorEscolhido);      
+        var CriarFiltroValorsInversores = this.state.inversores.filter(buscadorInversorEscolhido);   
+        
+        var PotenciaSelecionadaInversor = CriarFiltroValorsInversores.map(v => v.Potencia);
+        var TensaoEntradaMaximaInversor = CriarFiltroValorsInversores.map(v => v.TensaoEntradaMaxima);
+        var TensaoStringMinimaInvesor = CriarFiltroValorsInversores.map(v => v.TensaoStringMinima);
+        var TensaoStringMaximaInversor = CriarFiltroValorsInversores.map(v => v.TensaoStringMaxima);
+        var TesaoMinimaFuncionamentoInversor = CriarFiltroValorsInversores.map(v => v.TesaoMinimaFuncionamento);
+        var NumeroMPPTsInversor = CriarFiltroValorsInversores.map(v => v.NumeroMPPTs);
+
+        localStorage.setItem('PotenciaSelecionadaInversor', PotenciaSelecionadaInversor);
+        localStorage.setItem('TensaoEntradaMaximaInversor', TensaoEntradaMaximaInversor);
+        localStorage.setItem('TensaoStringMinimaInvesor', TensaoStringMinimaInvesor);
+        localStorage.setItem('TensaoStringMaximaInversor', TensaoStringMaximaInversor);
+        localStorage.setItem('TesaoMinimaFuncionamentoInversor', TesaoMinimaFuncionamentoInversor);
+        localStorage.setItem('NumeroMPPTsInversor', NumeroMPPTsInversor);
+
           
         return(
             <div>
-                <h2> Teste de Aplicação Inversores.</h2>
+                <h2> Seleção do Inversor</h2>
                 <div>
                     <table>
                         <tr>
                             <td>
-                                <select value={this.state.inversor} onChange={this.handleChangeInversor}>
-                                    <option value='Inversor'>Inversor</option>
-                                    {exibirModeloInversor}
-                            </select>
+                                Inversor da Instalação
                             </td>
                             <td>
-                                <p>{console.log(this.state.inversor)}</p>
-                                <p>{console.log(CriarFiltroValorsInversores)}</p>
+                                Temperatura Maxima
+                            </td>
+                            <td>
+                                Temperatura Minima
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select value={this.state.inversor} onChange={this.handleChangeInversor}>
+                                        <option value='Inversor'>Inversor</option>
+                                        {exibirModeloInversor}
+                                </select>
+                            </td>
+                            <td>
+                                <input value={this.state.tempMaxima} onChange={this.handleChangeTempMaxima}></input>
+                            </td>
+                            <td>
+                                <input value={this.state.tempMinima} onChange={this.handleChangeTempMinima}></input>
                             </td>
                         </tr>
                     </table>
