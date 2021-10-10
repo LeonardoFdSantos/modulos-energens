@@ -179,21 +179,21 @@ class InversoresComponent extends React.Component {
                             <TableHead>
                                 <TableRow>
                                     <StyledTableCell>Potencia do Inversor em kW</StyledTableCell>
-                                    <StyledTableCell align='right'>Tensão Maxima do Inversor</StyledTableCell>
-                                    <StyledTableCell align='right'>Tensão Minima do Inversor</StyledTableCell>
-                                    <StyledTableCell align='right'>Tensão Maxima de Funcionamento Padrão</StyledTableCell>
-                                    <StyledTableCell align='right'>Tensão Minima Para Funcionamento</StyledTableCell>
-                                    <StyledTableCell align='right'>Número de MPPTs</StyledTableCell>
+                                    <StyledTableCell align='center'>Tensão Maxima do Inversor</StyledTableCell>
+                                    <StyledTableCell align='center'>Tensão Minima do Inversor</StyledTableCell>
+                                    <StyledTableCell align='center'>Tensão Maxima de Funcionamento Padrão</StyledTableCell>
+                                    <StyledTableCell align='center'>Tensão Minima Para Funcionamento</StyledTableCell>
+                                    <StyledTableCell align='center'>Número de MPPTs</StyledTableCell>
                                 </TableRow>
                             </TableHead>
                             <TableBody>
                                 <StyledTableRow>
                                     <StyledTableCell component="th" scope="row">{CriarFiltroValorsInversores.map(v => v.Potencia)}</StyledTableCell>
-                                    <StyledTableCell align='right' component="th" scope="row">{CriarFiltroValorsInversores.map(v => v.TensaoEntradaMaxima)}</StyledTableCell>
-                                    <StyledTableCell align='right' component="th" scope="row">{CriarFiltroValorsInversores.map(v => v.TensaoStringMinima)}</StyledTableCell>
-                                    <StyledTableCell align='right' component="th" scope="row">{CriarFiltroValorsInversores.map(v => v.TensaoStringMaxima)}</StyledTableCell>
-                                    <StyledTableCell align='right' component="th" scope="row">{CriarFiltroValorsInversores.map(v => v.TesaoMinimaFuncionamento)}</StyledTableCell>
-                                    <StyledTableCell align='right' component="th" scope="row">{CriarFiltroValorsInversores.map(v => v.NumeroMPPTs)}</StyledTableCell>
+                                    <StyledTableCell align='center' component="th" scope="row">{CriarFiltroValorsInversores.map(v => v.TensaoEntradaMaxima)}</StyledTableCell>
+                                    <StyledTableCell align='center' component="th" scope="row">{CriarFiltroValorsInversores.map(v => v.TensaoStringMinima)}</StyledTableCell>
+                                    <StyledTableCell align='center' component="th" scope="row">{CriarFiltroValorsInversores.map(v => v.TensaoStringMaxima)}</StyledTableCell>
+                                    <StyledTableCell align='center' component="th" scope="row">{CriarFiltroValorsInversores.map(v => v.TesaoMinimaFuncionamento)}</StyledTableCell>
+                                    <StyledTableCell align='center' component="th" scope="row">{CriarFiltroValorsInversores.map(v => v.NumeroMPPTs)}</StyledTableCell>
                                 </StyledTableRow>
                             </TableBody>
                         </Table>

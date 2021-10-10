@@ -218,17 +218,17 @@ class ModulosComponent extends React.Component {
                             <TableHead>
                                 <TableRow>
                                     <StyledTableCell>Vmpp</StyledTableCell>
-                                    <StyledTableCell align='right'>βvmpp</StyledTableCell>
-                                    <StyledTableCell align='right'>Voc</StyledTableCell>
-                                    <StyledTableCell align='right'>βvoc</StyledTableCell>
+                                    <StyledTableCell align='center'>βvmpp</StyledTableCell>
+                                    <StyledTableCell align='center'>Voc</StyledTableCell>
+                                    <StyledTableCell align='center'>βvoc</StyledTableCell>
                                 </TableRow>
                             </TableHead>
                             <TableBody>
                                 <StyledTableRow>
                                     <StyledTableCell component="th" scope="row">{criarFiltoValores.map(v => v.Vmpp)}</StyledTableCell>
-                                    <StyledTableCell align='right' component="th" scope="row">{criarFiltoValores.map(v => v.βvmpp)}</StyledTableCell>
-                                    <StyledTableCell align='right' component="th" scope="row">{criarFiltoValores.map(v => v.Voc)}</StyledTableCell>
-                                    <StyledTableCell align='right' component="th" scope="row">{criarFiltoValores.map(v => v.βvoc)}</StyledTableCell>
+                                    <StyledTableCell align='center' component="th" scope="row">{criarFiltoValores.map(v => v.βvmpp)}</StyledTableCell>
+                                    <StyledTableCell align='center' component="th" scope="row">{criarFiltoValores.map(v => v.Voc)}</StyledTableCell>
+                                    <StyledTableCell align='center' component="th" scope="row">{criarFiltoValores.map(v => v.βvoc)}</StyledTableCell>
                                 </StyledTableRow>
                             </TableBody>
                         </Table>
