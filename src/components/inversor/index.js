@@ -1,6 +1,42 @@
 import React from "react";
 import './index.css';
 
+import InputLabel from '@mui/material/InputLabel';
+import MenuItem from '@mui/material/MenuItem';
+import FormControl from '@mui/material/FormControl';
+import Select from '@mui/material/Select';
+import { TableContainer } from "@mui/material";
+
+import { styled } from '@mui/material/styles';
+import Table from '@mui/material/Table';
+import TableBody from '@mui/material/TableBody';
+import TableCell, { tableCellClasses } from '@mui/material/TableCell';
+import TableHead from '@mui/material/TableHead';
+import TableRow from '@mui/material/TableRow';
+import Paper from '@mui/material/Paper';
+
+import TextField from '@mui/material/TextField';
+
+const StyledTableCell = styled(TableCell)(({ theme }) => ({
+    [`&.${tableCellClasses.head}`]: {
+      backgroundColor: theme.palette.common.black,
+      color: theme.palette.common.white,
+    },
+    [`&.${tableCellClasses.body}`]: {
+      fontSize: 14,
+    },
+  }));
+  
+  const StyledTableRow = styled(TableRow)(({ theme }) => ({
+    '&:nth-of-type(odd)': {
+      backgroundColor: theme.palette.action.hover,
+    },
+    // hide last border
+    '&:last-child td, &:last-child th': {
+      border: 0,
+    },
+  }));
+  
 class InversoresComponent extends React.Component {
     
     constructor(props){
@@ -46,7 +82,7 @@ class InversoresComponent extends React.Component {
         var FiltroModeloInversor = this.state.inversores.map(valor => valor.MODELO);
         var FiltrarModeloUnico = FiltroModeloInversor.filter((este, i) => FiltroModeloInversor.indexOf(este) === i);
         const exibirModeloInversor = FiltrarModeloUnico.map((Modelo) =>
-            <option value={Modelo}>{Modelo}</option>
+            <MenuItem value={Modelo}>{Modelo}</MenuItem>
         );
 
         var buscadorInversorEscolhido = function (Buscador){
@@ -80,55 +116,88 @@ class InversoresComponent extends React.Component {
             <div>
                 <h2> Seleção do Inversor</h2>
                 <div>
-                    
-                    <table>
-                        <tr>
-                            <td>
-                                Inversor da Instalação
-                            </td>
-                            <td>
-                                Temperatura Maxima
-                            </td>
-                            <td>
-                                Temperatura Minima
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <select value={this.state.inversor} onChange={this.handleChangeInversor}>
-                                        <option value='Inversor'>Inversor</option>
-                                        {exibirModeloInversor}
-                                </select>
-                            </td>
-                            <td>
-                                <input value={this.state.tempMaxima} onChange={this.handleChangeTempMaxima}></input>
-                            </td>
-                            <td>
-                                <input value={this.state.tempMinima} onChange={this.handleChangeTempMinima}></input>
-                            </td>
-                        </tr>
-                    </table>
+
+                    <TableContainer component={Paper} sx={{ maxHeight: 300 }}>
+                        <Table sx={{ minWidth: 50 }} aria-label="customized table">
+                            <TableHead>
+                                <TableRow>
+                                    <StyledTableCell>Inversor da Instalação</StyledTableCell>
+                                    <StyledTableCell align='center'>Temperatura Maxima</StyledTableCell>
+                                    <StyledTableCell align='center'>Temperatura Minima</StyledTableCell>
+                                </TableRow>
+                            </TableHead>
+                            <TableBody>
+                                <StyledTableCell component="th" scope="row">
+                                    <FormControl sx={{ m: 1, minWidth: 20}}>
+                                        <InputLabel id="demo-simple-select-helper-label">Inversor</InputLabel>
+                                            <Select
+                                            labelId="demo-simple-select-helper-label"
+                                            id="demo-simple-select-helper"
+                                            value={this.state.inversor}
+                                            label="Inversor"
+                                            onChange={this.handleChangeInversor}
+                                            >
+                                        <MenuItem value="">
+                                        </MenuItem>
+                                            <MenuItem value='Inversor'>Inversor</MenuItem>
+                                            {exibirModeloInversor}
+                                        </Select>
+                                    </FormControl>
+                                </StyledTableCell>
+                                <StyledTableCell component="th" scope="row">
+                                    <TextField
+                                        id="outlined-number"
+                                        value={this.state.tempMaxima}
+                                        label="Temperatura Máxima"
+                                        type="number"
+                                        InputLabelProps={{
+                                            shrink: true,
+                                        }}
+                                        onChange={this.handleChangeTempMaxima}
+                                        />
+                                </StyledTableCell>
+                                <StyledTableCell component="th" scope="row">
+                                    <TextField
+                                        id="outlined-number"
+                                        value={this.state.tempMinima}
+                                        label="Temperatura Minima"
+                                        type="number"
+                                        InputLabelProps={{
+                                            shrink: true,
+                                        }}
+                                        onChange={this.handleChangeTempMinima}
+                                        />
+                                </StyledTableCell>
+                            </TableBody>
+                        </Table>
+                    </TableContainer>
 
                     <h2>Retorno de Valores Inversores: </h2>
-                    <table border="2">
-                        <tr>
-                            <td>Potencia do Inversor em kW</td>
-                            <td>Tensão Maxima do Inversor</td>
-                            <td>Tensão Minima do Inversor</td>
-                            <td>Tensão Maxima de Funcionamento Padrão</td>
-                            <td>Tensão Minima Para Funcionamento</td>
-                            <td>Número de MPPTs</td>
-                        </tr>
-                        <tr>
-                            <td>{CriarFiltroValorsInversores.map(v => v.Potencia)}</td>
-                            <td>{CriarFiltroValorsInversores.map(v => v.TensaoEntradaMaxima)}</td>
-                            <td>{CriarFiltroValorsInversores.map(v => v.TensaoStringMinima)}</td>
-                            <td>{CriarFiltroValorsInversores.map(v => v.TensaoStringMaxima)}</td>
-                            <td>{CriarFiltroValorsInversores.map(v => v.TesaoMinimaFuncionamento)}</td>
-                            <td>{CriarFiltroValorsInversores.map(v => v.NumeroMPPTs)}</td>
-                        </tr>
-                    </table>
 
+                    <TableContainer component={Paper} sx={{ maxHeight: 300 }}>
+                        <Table sx={{ minWidth: 26 }} aria-label="customized table">
+                            <TableHead>
+                                <TableRow>
+                                    <StyledTableCell>Potencia do Inversor em kW</StyledTableCell>
+                                    <StyledTableCell align='right'>Tensão Maxima do Inversor</StyledTableCell>
+                                    <StyledTableCell align='right'>Tensão Minima do Inversor</StyledTableCell>
+                                    <StyledTableCell align='right'>Tensão Maxima de Funcionamento Padrão</StyledTableCell>
+                                    <StyledTableCell align='right'>Tensão Minima Para Funcionamento</StyledTableCell>
+                                    <StyledTableCell align='right'>Número de MPPTs</StyledTableCell>
+                                </TableRow>
+                            </TableHead>
+                            <TableBody>
+                                <StyledTableRow>
+                                    <StyledTableCell component="th" scope="row">{CriarFiltroValorsInversores.map(v => v.Potencia)}</StyledTableCell>
+                                    <StyledTableCell align='right' component="th" scope="row">{CriarFiltroValorsInversores.map(v => v.TensaoEntradaMaxima)}</StyledTableCell>
+                                    <StyledTableCell align='right' component="th" scope="row">{CriarFiltroValorsInversores.map(v => v.TensaoStringMinima)}</StyledTableCell>
+                                    <StyledTableCell align='right' component="th" scope="row">{CriarFiltroValorsInversores.map(v => v.TensaoStringMaxima)}</StyledTableCell>
+                                    <StyledTableCell align='right' component="th" scope="row">{CriarFiltroValorsInversores.map(v => v.TesaoMinimaFuncionamento)}</StyledTableCell>
+                                    <StyledTableCell align='right' component="th" scope="row">{CriarFiltroValorsInversores.map(v => v.NumeroMPPTs)}</StyledTableCell>
+                                </StyledTableRow>
+                            </TableBody>
+                        </Table>
+                    </TableContainer>
                 </div>
             </div>
                 

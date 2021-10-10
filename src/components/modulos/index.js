@@ -153,12 +153,10 @@ class ModulosComponent extends React.Component {
         return(
             <div>
                 <div>
-                
-
                     <table>
                         <tr>
                             <td>
-                            <FormControl sx={{ m: 1, minWidth: 100 }}>
+                            <FormControl sx={{ m: 1, minWidth: 60 }}>
                                 <InputLabel id="demo-simple-select-helper-label">Fabricante</InputLabel>
                                     <Select
                                     labelId="demo-simple-select-helper-label"
@@ -175,7 +173,7 @@ class ModulosComponent extends React.Component {
                             </FormControl>
                         </td>
                         <td>
-                            <FormControl sx={{ m: 1, minWidth: 100 }}>
+                            <FormControl sx={{ m: 1, minWidth: 60 }}>
                                 <InputLabel id="demo-simple-select-helper-label">Modelo</InputLabel>
                                     <Select
                                     labelId="demo-simple-select-helper-label"
@@ -192,7 +190,7 @@ class ModulosComponent extends React.Component {
                             </FormControl>
                         </td>
                         <td>
-                            <FormControl sx={{ m: 1, minWidth: 100 }}>
+                            <FormControl sx={{ m: 1, minWidth: 60 }}>
                                 <InputLabel id="demo-simple-select-helper-label">Potencia</InputLabel>
                                     <Select
                                     labelId="demo-simple-select-helper-label"
@@ -216,7 +214,7 @@ class ModulosComponent extends React.Component {
                     <h2>Retorno de Valores Módulos: </h2>
 
                     <TableContainer component={Paper} sx={{ maxHeight: 300 }}>
-                        <Table sx={{ minWidth: 350 }} aria-label="customized table">
+                        <Table sx={{ minWidth: 300 }} aria-label="customized table">
                             <TableHead>
                                 <TableRow>
                                     <StyledTableCell>Vmpp</StyledTableCell>
