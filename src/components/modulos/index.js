@@ -2,7 +2,6 @@ import React from "react";
 import './index.css';
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
-import FormHelperText from '@mui/material/FormHelperText';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 import { TableContainer } from "@mui/material";
@@ -35,9 +34,6 @@ const StyledTableCell = styled(TableCell)(({ theme }) => ({
     },
   }));
   
-  function createData(name, calories, fat, carbs, protein) {
-    return { name, calories, fat, carbs, protein };
-  }
 
 class ModulosComponent extends React.Component {
     
@@ -230,10 +226,12 @@ class ModulosComponent extends React.Component {
                                 </TableRow>
                             </TableHead>
                             <TableBody>
-                                <StyledTableCell component="th" scope="row">{criarFiltoValores.map(v => v.Vmpp)}</StyledTableCell>
-                                <StyledTableCell align='right' component="th" scope="row">{criarFiltoValores.map(v => v.βvmpp)}</StyledTableCell>
-                                <StyledTableCell align='right' component="th" scope="row">{criarFiltoValores.map(v => v.Voc)}</StyledTableCell>
-                                <StyledTableCell align='right' component="th" scope="row">{criarFiltoValores.map(v => v.βvoc)}</StyledTableCell>
+                                <StyledTableRow>
+                                    <StyledTableCell component="th" scope="row">{criarFiltoValores.map(v => v.Vmpp)}</StyledTableCell>
+                                    <StyledTableCell align='right' component="th" scope="row">{criarFiltoValores.map(v => v.βvmpp)}</StyledTableCell>
+                                    <StyledTableCell align='right' component="th" scope="row">{criarFiltoValores.map(v => v.Voc)}</StyledTableCell>
+                                    <StyledTableCell align='right' component="th" scope="row">{criarFiltoValores.map(v => v.βvoc)}</StyledTableCell>
+                                </StyledTableRow>
                             </TableBody>
                         </Table>
                     </TableContainer>
