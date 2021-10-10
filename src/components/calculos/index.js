@@ -134,7 +134,7 @@ class CalculosComponent extends React.Component {
                         </tr>
                     </table>
                 </div>
-                <div><h1></h1></div>
+                <div><h3>Dados Inversores para Projeto</h3></div>
                 <div>
                     <table border='2'>
                         <tr>
