@@ -1,5 +1,43 @@
 import React from "react";
 import './index.css';
+import InputLabel from '@mui/material/InputLabel';
+import MenuItem from '@mui/material/MenuItem';
+import FormHelperText from '@mui/material/FormHelperText';
+import FormControl from '@mui/material/FormControl';
+import Select from '@mui/material/Select';
+import { TableContainer } from "@mui/material";
+
+import { styled } from '@mui/material/styles';
+import Table from '@mui/material/Table';
+import TableBody from '@mui/material/TableBody';
+import TableCell, { tableCellClasses } from '@mui/material/TableCell';
+import TableHead from '@mui/material/TableHead';
+import TableRow from '@mui/material/TableRow';
+import Paper from '@mui/material/Paper';
+
+const StyledTableCell = styled(TableCell)(({ theme }) => ({
+    [`&.${tableCellClasses.head}`]: {
+      backgroundColor: theme.palette.common.black,
+      color: theme.palette.common.white,
+    },
+    [`&.${tableCellClasses.body}`]: {
+      fontSize: 14,
+    },
+  }));
+  
+  const StyledTableRow = styled(TableRow)(({ theme }) => ({
+    '&:nth-of-type(odd)': {
+      backgroundColor: theme.palette.action.hover,
+    },
+    // hide last border
+    '&:last-child td, &:last-child th': {
+      border: 0,
+    },
+  }));
+  
+  function createData(name, calories, fat, carbs, protein) {
+    return { name, calories, fat, carbs, protein };
+  }
 
 class ModulosComponent extends React.Component {
     
@@ -55,7 +93,7 @@ class ModulosComponent extends React.Component {
         const TodosFabricantes = this.state.modulos.map(v => v.Fabricante);
         const Fabricantes = TodosFabricantes.filter((este, i) => TodosFabricantes.indexOf(este) === i);
         const exibirFabricantes = Fabricantes.map((fabricante) =>
-            <option value={fabricante}>{fabricante}</option>
+            <MenuItem value={fabricante}>{fabricante}</MenuItem>
         );
 
         function BuscarFabricantesModulos(Valor){
@@ -76,7 +114,7 @@ class ModulosComponent extends React.Component {
             var FiltroModuloModelo = FiltroModulos.map(v => v.Modelo);
             const exibirModelo = FiltroModuloModelo.filter((este, i) => FiltroModuloModelo.indexOf(este) === i);
             const exibirModeloFabricante = exibirModelo.map((modeloModulos) => 
-                <option value={modeloModulos}>{modeloModulos}</option>
+                <MenuItem value={modeloModulos}>{modeloModulos}</MenuItem>
             );
             ApareceCampoModelo = exibirModeloFabricante;
             
@@ -84,7 +122,7 @@ class ModulosComponent extends React.Component {
             var FiltroPotencia = criarFiltroModulos.map(v => v.Potencia);
             const ExibePotenciaModulos = FiltroPotencia.filter((este, i) => FiltroPotencia.indexOf(este) === i);
             const ExibePotenciaFabricante = ExibePotenciaModulos.map((PotenciaModulos) => 
-                <option value={PotenciaModulos}>{PotenciaModulos}</option>
+                <MenuItem value={PotenciaModulos}>{PotenciaModulos}</MenuItem>
             );
 
             ApareceCampoPotencia = ExibePotenciaFabricante;
@@ -119,25 +157,60 @@ class ModulosComponent extends React.Component {
         return(
             <div>
                 <div>
+                
+
                     <table>
                         <tr>
                             <td>
-                        <select value={this.state.fabricante} onChange={this.handleChangeFabricante}>
-                            <option value='Fabricante'>Fabricante</option>
-                            {exibirFabricantes}
-                        </select>
+                            <FormControl sx={{ m: 1, minWidth: 120 }}>
+                                <InputLabel id="demo-simple-select-helper-label">Fabricante</InputLabel>
+                                    <Select
+                                    labelId="demo-simple-select-helper-label"
+                                    id="demo-simple-select-helper"
+                                    value={this.state.fabricante}
+                                    label="Fabricante"
+                                    onChange={this.handleChangeFabricante}
+                                    >
+                                <MenuItem value="">
+                                </MenuItem>
+                                    <MenuItem value='Fabricante'>Fabricante</MenuItem>
+                                    {exibirFabricantes}
+                                </Select>
+                            </FormControl>
                         </td>
                         <td>
-                        <select value={this.state.modelo} onChange={this.handleChangeModelo}>
-                                <option value='Modelo'>Modelo</option>
-                                {ApareceCampoModelo}
-                        </select>
+                            <FormControl sx={{ m: 1, minWidth: 120 }}>
+                                <InputLabel id="demo-simple-select-helper-label">Modelo</InputLabel>
+                                    <Select
+                                    labelId="demo-simple-select-helper-label"
+                                    id="demo-simple-select-helper"
+                                    value={this.state.modelo}
+                                    label="Modelo"
+                                    onChange={this.handleChangeModelo}
+                                    >
+                                <MenuItem value="">
+                                </MenuItem>
+                                    <MenuItem value='Modelo'>Modelo</MenuItem>
+                                    {ApareceCampoModelo}
+                                </Select>
+                            </FormControl>
                         </td>
                         <td>
-                        <select value={this.state.potencia} onChange={this.handleChangePotencia}>
-                                <option value='Potencia'>Potencia</option>
-                                {ApareceCampoPotencia}
-                        </select>
+                            <FormControl sx={{ m: 1, minWidth: 120 }}>
+                                <InputLabel id="demo-simple-select-helper-label">Potencia</InputLabel>
+                                    <Select
+                                    labelId="demo-simple-select-helper-label"
+                                    id="demo-simple-select-helper"
+                                    value={this.state.potencia}
+                                    label="Modelo"
+                                    onChange={this.handleChangePotencia}
+                                    >
+                                <MenuItem value="">
+                                </MenuItem>
+                                    <MenuItem value='Potencia'>Potencia</MenuItem>
+                                    {ApareceCampoPotencia}
+                                </Select>
+                            </FormControl>
                         </td>
                         
                     </tr>
@@ -145,20 +218,25 @@ class ModulosComponent extends React.Component {
                 </div>
                 <div>
                     <h2>Retorno de Valores Módulos: </h2>
-                    <table border="2">
-                        <tr>
-                            <td>Vmpp</td>
-                            <td>βvmpp</td>
-                            <td>Voc</td>
-                            <td>βvoc</td>
-                        </tr>
-                        <tr>
-                            <td>{criarFiltoValores.map(v => v.Vmpp)}</td>
-                            <td>{criarFiltoValores.map(v => v.βvmpp)}</td>
-                            <td>{criarFiltoValores.map(v => v.Voc)}</td>
-                            <td>{criarFiltoValores.map(v => v.βvoc)}</td>
-                        </tr>
-                    </table>
+
+                    <TableContainer component={Paper}>
+                        <Table sx={{ minWidth: 400}} aria-label="customized table">
+                            <TableHead>
+                                <TableRow>
+                                    <StyledTableCell>Vmpp</StyledTableCell>
+                                    <StyledTableCell align='right'>βvmpp</StyledTableCell>
+                                    <StyledTableCell align='right'>Voc</StyledTableCell>
+                                    <StyledTableCell align='right'>βvoc</StyledTableCell>
+                                </TableRow>
+                            </TableHead>
+                            <TableBody>
+                                <StyledTableCell component="th" scope="row">{criarFiltoValores.map(v => v.Vmpp)}</StyledTableCell>
+                                <StyledTableCell align='right' component="th" scope="row">{criarFiltoValores.map(v => v.βvmpp)}</StyledTableCell>
+                                <StyledTableCell align='right' component="th" scope="row">{criarFiltoValores.map(v => v.Voc)}</StyledTableCell>
+                                <StyledTableCell align='right' component="th" scope="row">{criarFiltoValores.map(v => v.βvoc)}</StyledTableCell>
+                            </TableBody>
+                        </Table>
+                    </TableContainer>
                 </div>
             </div>
         );

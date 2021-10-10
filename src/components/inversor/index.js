@@ -73,11 +73,14 @@ class InversoresComponent extends React.Component {
         localStorage.setItem('TemperaturaMaxima', this.state.tempMaxima);
         localStorage.setItem('TemperaturaMinima', this.state.tempMinima);
 
+
+
           
         return(
             <div>
                 <h2> Seleção do Inversor</h2>
                 <div>
+                    
                     <table>
                         <tr>
                             <td>
