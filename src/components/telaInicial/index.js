@@ -39,7 +39,7 @@ class TelaIncial extends React.Component {
                 <div>
                     <ShowCalculos warn={this.state.showCalculos} />
                 </div>
-                <button className="" onClick={this.handleClickUpdate}>Calcular</button>
+                <button className="button" onClick={this.handleClickUpdate}>Calcular</button>
             </div>
         );
     }
