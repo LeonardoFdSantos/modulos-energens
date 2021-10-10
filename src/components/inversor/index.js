@@ -70,6 +70,8 @@ class InversoresComponent extends React.Component {
         localStorage.setItem('TensaoStringMaximaInversor', TensaoStringMaximaInversor);
         localStorage.setItem('TesaoMinimaFuncionamentoInversor', TesaoMinimaFuncionamentoInversor);
         localStorage.setItem('NumeroMPPTsInversor', NumeroMPPTsInversor);
+        localStorage.setItem('TemperaturaMaxima', this.state.tempMaxima);
+        localStorage.setItem('TemperaturaMinima', this.state.tempMinima);
 
           
         return(
