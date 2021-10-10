@@ -4,6 +4,7 @@ import ModulosComponent from '../modulos';
 import InversoresComponent from '../inversor';
 import CalculosComponent from '../calculos';
 import Button from '@mui/material/Button';
+import CalculateOutlinedIcon from '@mui/icons-material/CalculateOutlined';
 
 function ShowCalculos(props){
     if(!props.warn){
@@ -40,7 +41,7 @@ class TelaIncial extends React.Component {
                 <div>
                     <ShowCalculos warn={this.state.showCalculos} />
                 </div>
-                <Button variant="contained" color="success" size="large" onClick={this.handleClickUpdate}>Calcular</Button>
+                <Button variant="contained" color="success" size="large" onClick={this.handleClickUpdate} startIcon={<CalculateOutlinedIcon />}>Calcular</Button>
             </div>
         );
     }
