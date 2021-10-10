@@ -47,7 +47,7 @@ class ModulosComponent extends React.Component {
     }
 
     render(){
-        var valorModulos = this.state.modulos;
+        //var valorModulos = this.state.modulos;
         var valorFabricante = this.state.fabricante;
         var valorModelo = this.state.modelo;
         var ValorPotencia = this.state.potencia;
