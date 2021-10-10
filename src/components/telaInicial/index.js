@@ -3,6 +3,7 @@ import './index.css';
 import ModulosComponent from '../modulos';
 import InversoresComponent from '../inversor';
 import CalculosComponent from '../calculos';
+import Button from '@mui/material/Button';
 
 function ShowCalculos(props){
     if(!props.warn){
@@ -39,7 +40,7 @@ class TelaIncial extends React.Component {
                 <div>
                     <ShowCalculos warn={this.state.showCalculos} />
                 </div>
-                <button className="button" onClick={this.handleClickUpdate}>Calcular</button>
+                <Button variant="contained" color="success" size="large" onClick={this.handleClickUpdate}>Calcular</Button>
             </div>
         );
     }
