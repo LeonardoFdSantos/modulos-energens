@@ -4,7 +4,7 @@ import ModulosComponent from './components/modulos';
 function App() {
   return (
     <div>
-      <h1>Bem vindos ao LEONARDO CALCULATOR!</h1>
+      <h1>Calculadora de Módulos String Energens!</h1>
       <div>
         <ModulosComponent />
       </div>
