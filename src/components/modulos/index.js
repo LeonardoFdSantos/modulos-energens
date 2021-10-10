@@ -129,7 +129,7 @@ class ModulosComponent extends React.Component {
                 </table>
                 </div>
                 <div>
-                    <h2>Retorno de Valores: </h2>
+                    <h2>Retorno de Valores Módulos: </h2>
                     <table border="2">
                         <tr>
                             <td>Vmpp</td>

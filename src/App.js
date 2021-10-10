@@ -1,5 +1,6 @@
 import './App.css';
 import ModulosComponent from './components/modulos';
+import InversoresComponent from './components/inversor';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
         <ModulosComponent />
       </div>
       <div>
-        
+        <InversoresComponent />
       </div>
       
     </div>
