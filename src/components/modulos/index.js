@@ -158,7 +158,7 @@ class ModulosComponent extends React.Component {
                     <table>
                         <tr>
                             <td>
-                            <FormControl sx={{ m: 1, minWidth: 120 }}>
+                            <FormControl sx={{ m: 1, minWidth: 100 }}>
                                 <InputLabel id="demo-simple-select-helper-label">Fabricante</InputLabel>
                                     <Select
                                     labelId="demo-simple-select-helper-label"
@@ -175,7 +175,7 @@ class ModulosComponent extends React.Component {
                             </FormControl>
                         </td>
                         <td>
-                            <FormControl sx={{ m: 1, minWidth: 120 }}>
+                            <FormControl sx={{ m: 1, minWidth: 100 }}>
                                 <InputLabel id="demo-simple-select-helper-label">Modelo</InputLabel>
                                     <Select
                                     labelId="demo-simple-select-helper-label"
@@ -192,7 +192,7 @@ class ModulosComponent extends React.Component {
                             </FormControl>
                         </td>
                         <td>
-                            <FormControl sx={{ m: 1, minWidth: 120 }}>
+                            <FormControl sx={{ m: 1, minWidth: 100 }}>
                                 <InputLabel id="demo-simple-select-helper-label">Potencia</InputLabel>
                                     <Select
                                     labelId="demo-simple-select-helper-label"
