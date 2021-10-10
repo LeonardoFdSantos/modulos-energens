@@ -215,8 +215,8 @@ class ModulosComponent extends React.Component {
                 <div>
                     <h2>Retorno de Valores Módulos: </h2>
 
-                    <TableContainer component={Paper}>
-                        <Table sx={{ minWidth: 400}} aria-label="customized table">
+                    <TableContainer component={Paper} sx={{ maxHeight: 300 }}>
+                        <Table sx={{ minWidth: 350 }} aria-label="customized table">
                             <TableHead>
                                 <TableRow>
                                     <StyledTableCell>Vmpp</StyledTableCell>
