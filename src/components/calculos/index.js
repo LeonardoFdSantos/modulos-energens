@@ -107,7 +107,7 @@ class CalculosComponent extends React.Component {
         var QuantidadeMaximaPermitidaTensaoMinima = (QuantidadeInteiraMaximaPermitida*(VmppModulosSelcionado *(1-βvmppModulosSelcionado*(25-TemperaturaMaxima)))).toFixed(4);
         var QuantidadeMaximaPermitidaTensaoMaxima = (QuantidadeInteiraMaximaPermitida*(VocModulosSelcionado *(1-βvocModulosSelcionado*(25-TemperaturaMinima)))).toFixed(4);
 
-        var QuantidadeModulosMaximoMPPTs = (QuantidadeMaximaInteirosModulos*NumeroMPPTsInversor).toFixed(4);
+        var QuantidadeModulosMaximoMPPTs = (QuantidadeMaximaInteirosModulos*NumeroMPPTsInversor);
         var QuantidadeAcoselhavelMaximoMPPTS = (QuantidadeModulosMaximoMPPTs*PotenciaSelecionadaModulo/1000).toFixed(4);
 
         var QuantidadeModulosPelaPotencia = ((PotenciaSelecionadaInversor*(1.5)*1000)/(PotenciaSelecionadaModulo));
