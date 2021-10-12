@@ -95,7 +95,7 @@ class CalculosComponent extends React.Component {
         var QuantidadeMinimaModulos = (TensaoStringMinimaInvesor/(VmppModulosSelcionado*(1-βvmppModulosSelcionado*(25-TemperaturaMaxima)))).toFixed(4);
         
         var QuantidadeMaximaInteirosModulos = Math.trunc(QuantidadeMaximaModulos);
-        var QuantidadeMinimaInteirosModulos = Math.trunc(QuantidadeMinimaModulos);
+        var QuantidadeMinimaInteirosModulos = Math.ceil(QuantidadeMinimaModulos);
         
         var QuantidadeMaximaModulosTensaoMinima = (QuantidadeMaximaInteirosModulos*(VmppModulosSelcionado *(1-βvmppModulosSelcionado*(25-TemperaturaMaxima)))).toFixed(4);
         var QuantidadeMaximaModulosTensaoMaxima = (QuantidadeMaximaInteirosModulos*(VocModulosSelcionado *(1-βvocModulosSelcionado*(25-TemperaturaMinima)))).toFixed(4);
