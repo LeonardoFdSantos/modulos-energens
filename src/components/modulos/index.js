@@ -1,4 +1,5 @@
 import React from "react";
+import axios from 'axios';
 import './index.css';
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
@@ -72,16 +73,13 @@ class ModulosComponent extends React.Component {
 
 
     componentDidMount(){
-        fetch('./DadosModulos.json',{
-            headers: {
-                Accept: "application/json"
-            }
-        }).then(res => res.json())
-        .then(res => this.setState({modulos: res.DadosModulos}))
+        axios.get('https://api-energens-backend.herokuapp.com/modulos', { crossDomain: true })
+        .then(res => this.setState({ modulos: res.data}))
     }
 
     render(){
-        //var valorModulos = this.state.modulos;
+        // var valorModulos = this.state.modulos;
+        
         var valorFabricante = this.state.fabricante;
         var valorModelo = this.state.modelo;
         var ValorPotencia = this.state.potencia;

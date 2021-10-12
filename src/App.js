@@ -22,7 +22,6 @@ function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Container maxWidth="lg">
-        <h1>Calculadora de Quantidade de Módulos por String da Energens!</h1>
         <TelaIncial />
       </Container>
     </ThemeProvider>

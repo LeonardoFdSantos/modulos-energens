@@ -1,4 +1,5 @@
 import React from "react";
+import axios from 'axios';
 import './index.css';
 
 import InputLabel from '@mui/material/InputLabel';
@@ -67,31 +68,26 @@ class InversoresComponent extends React.Component {
 
 
     componentDidMount(){
-        fetch('./DadosInversores.json',{
-            headers: {
-                Accept: "application/json"
-            }
-        }).then(res => res.json())
-        .then(res => this.setState({inversores: res.DadosInversores}))
+        axios.get('https://api-energens-backend.herokuapp.com/inversores', { crossDomain: true })
+        .then(res => this.setState({inversores: res.data}))    
     }
 
     render(){
-
         var ModeloInversor = this.state.inversor;
-
-        var FiltroModeloInversor = this.state.inversores.map(valor => valor.MODELO);
+        var FiltroModeloInversor = this.state.inversores.map(valor => valor.Modelo);
         var FiltrarModeloUnico = FiltroModeloInversor.filter((este, i) => FiltroModeloInversor.indexOf(este) === i);
+        
         const exibirModeloInversor = FiltrarModeloUnico.map((Modelo) =>
             <MenuItem value={Modelo}>{Modelo}</MenuItem>
         );
 
         var buscadorInversorEscolhido = function (Buscador){
-            if(Buscador.MODELO === ModeloInversor){
+            if(Buscador.Modelo === ModeloInversor){
                 return Buscador;
             }
         }
 
-        var CriarFiltroValorsInversores = this.state.inversores.filter(buscadorInversorEscolhido);   
+        var CriarFiltroValorsInversores = this.state.inversores.filter(buscadorInversorEscolhido);  
         
         var PotenciaSelecionadaInversor = CriarFiltroValorsInversores.map(v => v.Potencia);
         var TensaoEntradaMaximaInversor = CriarFiltroValorsInversores.map(v => v.TensaoEntradaMaxima);
