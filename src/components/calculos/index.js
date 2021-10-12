@@ -133,27 +133,23 @@ class CalculosComponent extends React.Component {
                                 <TableBody>
                                     <StyledTableRow>
                                         <StyledTableCell component="th" scope="row" rowspan='2'>Quantidade Maxima Módulos</StyledTableCell>
-                                        <StyledTableCell align='center' component="th" scope="row">{QuantidadeMaximaModulos}</StyledTableCell>
-                                        <StyledTableCell align='center' component="th" scope="row">{QuantidadeMaximaInteirosModulos}</StyledTableCell>
+                                        <StyledTableCell align='center' component="th" scope="row" rowspan='2'>{QuantidadeMaximaModulos}</StyledTableCell>
+                                        <StyledTableCell align='center' component="th" scope="row" rowspan='2'>{QuantidadeMaximaInteirosModulos}</StyledTableCell>
                                         <StyledTableCell align='center' component="th" scope="row">{QuantidadeMaximaModulosTensaoMinima}</StyledTableCell>
                                         <StyledTableCell align='center' component="th" scope="row">Tensão Minima MPPT</StyledTableCell>
                                     </StyledTableRow>
                                     <StyledTableRow>
-                                        <StyledTableCell align='center' component="th" scope="row">{QuantidadeMaximaModulos}</StyledTableCell>
-                                        <StyledTableCell align='center' component="th" scope="row">{QuantidadeMaximaInteirosModulos}</StyledTableCell>
                                         <StyledTableCell align='center' component="th" scope="row">{QuantidadeMaximaModulosTensaoMaxima}</StyledTableCell>
                                         <StyledTableCell align='center' component="th" scope="row">Tensão Maxima MPPT</StyledTableCell>
                                     </StyledTableRow>
                                     <StyledTableRow>
                                         <StyledTableCell component="th" scope="row" rowspan='2'>Quantidade Minima Módulos</StyledTableCell>
-                                        <StyledTableCell align='center' component="th" scope="row">{QuantidadeMinimaModulos}</StyledTableCell>
-                                        <StyledTableCell align='center' component="th" scope="row">{QuantidadeMinimaInteirosModulos}</StyledTableCell>
+                                        <StyledTableCell align='center' component="th" scope="row" rowspan='2'>{QuantidadeMinimaModulos}</StyledTableCell>
+                                        <StyledTableCell align='center' component="th" scope="row" rowspan='2'>{QuantidadeMinimaInteirosModulos}</StyledTableCell>
                                         <StyledTableCell align='center' component="th" scope="row">{QuantidadeMinimaModulosTensaoMinima}</StyledTableCell>
                                         <StyledTableCell align='center' component="th" scope="row">Tensão Minima MPPT</StyledTableCell>
                                     </StyledTableRow>
                                     <StyledTableRow>
-                                        <StyledTableCell align='center' component="th" scope="row">{QuantidadeMinimaModulos}</StyledTableCell>
-                                        <StyledTableCell align='center' component="th" scope="row">{QuantidadeMinimaInteirosModulos}</StyledTableCell>
                                         <StyledTableCell align='center' component="th" scope="row">{QuantidadeMinimaModulosTensaoMaxima}</StyledTableCell>
                                         <StyledTableCell align='center' component="th" scope="row">Tensão Maxima MPPT</StyledTableCell>
                                     </StyledTableRow>
