@@ -188,7 +188,7 @@ class InversoresComponent extends React.Component {
                                     <StyledTableCell align='center' component="th" scope="row">{CriarFiltroValorsInversores.map(v => v.TensaoEntradaMaxima)}</StyledTableCell>
                                     <StyledTableCell align='center' component="th" scope="row">{CriarFiltroValorsInversores.map(v => v.TensaoStringMinima)}</StyledTableCell>
                                     <StyledTableCell align='center' component="th" scope="row">{CriarFiltroValorsInversores.map(v => v.TensaoStringMaxima)}</StyledTableCell>
-                                    <StyledTableCell align='center' component="th" scope="row">{CriarFiltroValorsInversores.map(v => v.TemsaoMinimaFuncionamento)}</StyledTableCell>
+                                    <StyledTableCell align='center' component="th" scope="row">{CriarFiltroValorsInversores.map(v => v.TensaoMinimaFuncionamento)}</StyledTableCell>
                                     <StyledTableCell align='center' component="th" scope="row">{CriarFiltroValorsInversores.map(v => v.NumeroMPPTs)}</StyledTableCell>
                                 </StyledTableRow>
                             </TableBody>
