@@ -93,14 +93,14 @@ class InversoresComponent extends React.Component {
         var TensaoEntradaMaximaInversor = CriarFiltroValorsInversores.map(v => v.TensaoEntradaMaxima);
         var TensaoStringMinimaInvesor = CriarFiltroValorsInversores.map(v => v.TensaoStringMinima);
         var TensaoStringMaximaInversor = CriarFiltroValorsInversores.map(v => v.TensaoStringMaxima);
-        var TensaoMinimaFuncionamentoInversor = CriarFiltroValorsInversores.map(v => v.TensaoMinimaFuncionamentoInversor);
+        var TensaoMinimaFuncionamento = CriarFiltroValorsInversores.map(v => v.TensaoMinimaFuncionamento);
         var NumeroMPPTsInversor = CriarFiltroValorsInversores.map(v => v.NumeroMPPTs);
 
         localStorage.setItem('PotenciaSelecionadaInversor', PotenciaSelecionadaInversor);
         localStorage.setItem('TensaoEntradaMaximaInversor', TensaoEntradaMaximaInversor);
         localStorage.setItem('TensaoStringMinimaInvesor', TensaoStringMinimaInvesor);
         localStorage.setItem('TensaoStringMaximaInversor', TensaoStringMaximaInversor);
-        localStorage.setItem('TensaoMinimaFuncionamentoInversor', TensaoMinimaFuncionamentoInversor);
+        localStorage.setItem('TensaoMinimaFuncionamento', TensaoMinimaFuncionamento);
         localStorage.setItem('NumeroMPPTsInversor', NumeroMPPTsInversor);
         localStorage.setItem('TemperaturaMaxima', this.state.tempMaxima);
         localStorage.setItem('TemperaturaMinima', this.state.tempMinima);

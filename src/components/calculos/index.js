@@ -47,7 +47,7 @@ class CalculosComponent extends React.Component {
                 TensaoEntradaMaximaInversor: null,
                 TensaoStringMinimaInvesor: null,
                 TensaoStringMaximaInversor: null,
-                TensaoMinimaFuncionamentoInversor: null,
+                TensaoMinimaFuncionamento: null,
                 NumeroMPPTsInversor: null,
                 TemperaturaMaxima: null,
                 TemperaturaMinima: null,
@@ -64,7 +64,7 @@ class CalculosComponent extends React.Component {
             var TensaoEntradaMaximaInversor = localStorage.getItem('TensaoEntradaMaximaInversor');
             var TensaoStringMinimaInvesor = localStorage.getItem('TensaoStringMinimaInvesor');
             var TensaoStringMaximaInversor = localStorage.getItem('TensaoStringMaximaInversor');
-            var TensaoMinimaFuncionamentoInversor = localStorage.getItem('TensaoMinimaFuncionamentoInversor');
+            var TensaoMinimaFuncionamento = localStorage.getItem('TensaoMinimaFuncionamento');
             var NumeroMPPTsInversor = localStorage.getItem('NumeroMPPTsInversor');
             var TemperaturaMaxima = localStorage.getItem('TemperaturaMaxima');
             var TemperaturaMinima = localStorage.getItem('TemperaturaMinima');
@@ -80,7 +80,7 @@ class CalculosComponent extends React.Component {
                 TensaoEntradaMaximaInversor: TensaoEntradaMaximaInversor,
                 TensaoStringMinimaInvesor: TensaoStringMinimaInvesor,
                 TensaoStringMaximaInversor: TensaoStringMaximaInversor,
-                TensaoMinimaFuncionamentoInversor: TensaoMinimaFuncionamentoInversor,
+                TensaoMinimaFuncionamento: TensaoMinimaFuncionamento,
                 NumeroMPPTsInversor: NumeroMPPTsInversor,
                 TemperaturaMaxima: TemperaturaMaxima,
                 TemperaturaMinima: TemperaturaMinima
