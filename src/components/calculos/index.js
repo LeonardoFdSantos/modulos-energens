@@ -40,9 +40,9 @@ class CalculosComponent extends React.Component {
             dados: {
                 PotenciaSelecionadaModulo: null,
                 VmppModulosSelcionado: null,
-                βvmppModulosSelcionado: null,
+                BvmppModulosSelcionado: null,
                 VocModulosSelcionado: null,
-                βvocModulosSelcionado: null,
+                BvocModulosSelcionado: null,
                 PotenciaSelecionadaInversor: null,
                 TensaoEntradaMaximaInversor: null,
                 TensaoStringMinimaInvesor: null,
@@ -57,9 +57,9 @@ class CalculosComponent extends React.Component {
 
     componentWillMount(){
             var VmppModulosSelcionado = localStorage.getItem('VmppModulosSelcionado');
-            var βvmppModulosSelcionado = localStorage.getItem('βvmppModulosSelcionado');
+            var BvmppModulosSelcionado = localStorage.getItem('BvmppModulosSelcionado');
             var VocModulosSelcionado = localStorage.getItem('VocModulosSelcionado');
-            var βvocModulosSelcionado = localStorage.getItem('βvocModulosSelcionado');
+            var BvocModulosSelcionado = localStorage.getItem('BvocModulosSelcionado');
             var PotenciaSelecionadaInversor = localStorage.getItem('PotenciaSelecionadaInversor');
             var TensaoEntradaMaximaInversor = localStorage.getItem('TensaoEntradaMaximaInversor');
             var TensaoStringMinimaInvesor = localStorage.getItem('TensaoStringMinimaInvesor');
@@ -73,9 +73,9 @@ class CalculosComponent extends React.Component {
             this.setState({ dados: {
                 PotenciaSelecionadaModulo: PotenciaSelecionadaModulo,
                 VmppModulosSelcionado: VmppModulosSelcionado,
-                βvmppModulosSelcionado: βvmppModulosSelcionado,
+                BvmppModulosSelcionado: BvmppModulosSelcionado,
                 VocModulosSelcionado: VocModulosSelcionado,
-                βvocModulosSelcionado: βvocModulosSelcionado,
+                BvocModulosSelcionado: BvocModulosSelcionado,
                 PotenciaSelecionadaInversor: PotenciaSelecionadaInversor,
                 TensaoEntradaMaximaInversor: TensaoEntradaMaximaInversor,
                 TensaoStringMinimaInvesor: TensaoStringMinimaInvesor,
@@ -88,24 +88,24 @@ class CalculosComponent extends React.Component {
     }
 
     render(){
-        var { VmppModulosSelcionado, βvmppModulosSelcionado, VocModulosSelcionado, βvocModulosSelcionado, PotenciaSelecionadaInversor, TensaoEntradaMaximaInversor,
+        var { VmppModulosSelcionado, BvmppModulosSelcionado, VocModulosSelcionado, BvocModulosSelcionado, PotenciaSelecionadaInversor, TensaoEntradaMaximaInversor,
             TensaoStringMinimaInvesor, TensaoStringMaximaInversor, TemperaturaMaxima, TemperaturaMinima, NumeroMPPTsInversor, PotenciaSelecionadaModulo
         } = this.state.dados;
-        var QuantidadeMaximaModulos = (TensaoStringMaximaInversor/(VocModulosSelcionado * (1-βvocModulosSelcionado * (25-TemperaturaMinima)))).toFixed(4);
-        var QuantidadeMinimaModulos = (TensaoStringMinimaInvesor/(VmppModulosSelcionado*(1-βvmppModulosSelcionado*(25-TemperaturaMaxima)))).toFixed(4);
+        var QuantidadeMaximaModulos = (TensaoStringMaximaInversor/(VocModulosSelcionado * (1-BvocModulosSelcionado * (25-TemperaturaMinima)))).toFixed(4);
+        var QuantidadeMinimaModulos = (TensaoStringMinimaInvesor/(VmppModulosSelcionado*(1-BvmppModulosSelcionado*(25-TemperaturaMaxima)))).toFixed(4);
         
         var QuantidadeMaximaInteirosModulos = Math.trunc(QuantidadeMaximaModulos);
         var QuantidadeMinimaInteirosModulos = Math.ceil(QuantidadeMinimaModulos);
         
-        var QuantidadeMaximaModulosTensaoMinima = (QuantidadeMaximaInteirosModulos*(VmppModulosSelcionado *(1-βvmppModulosSelcionado*(25-TemperaturaMaxima)))).toFixed(4);
-        var QuantidadeMaximaModulosTensaoMaxima = (QuantidadeMaximaInteirosModulos*(VocModulosSelcionado *(1-βvocModulosSelcionado*(25-TemperaturaMinima)))).toFixed(4);
-        var QuantidadeMinimaModulosTensaoMinima = (QuantidadeMinimaInteirosModulos*(VmppModulosSelcionado *(1-βvmppModulosSelcionado*(25-TemperaturaMaxima)))).toFixed(4);
-        var QuantidadeMinimaModulosTensaoMaxima = (QuantidadeMinimaInteirosModulos*(VocModulosSelcionado *(1-βvocModulosSelcionado*(25-TemperaturaMinima)))).toFixed(4);
+        var QuantidadeMaximaModulosTensaoMinima = (QuantidadeMaximaInteirosModulos*(VmppModulosSelcionado *(1-BvmppModulosSelcionado*(25-TemperaturaMaxima)))).toFixed(4);
+        var QuantidadeMaximaModulosTensaoMaxima = (QuantidadeMaximaInteirosModulos*(VocModulosSelcionado *(1-BvocModulosSelcionado*(25-TemperaturaMinima)))).toFixed(4);
+        var QuantidadeMinimaModulosTensaoMinima = (QuantidadeMinimaInteirosModulos*(VmppModulosSelcionado *(1-BvmppModulosSelcionado*(25-TemperaturaMaxima)))).toFixed(4);
+        var QuantidadeMinimaModulosTensaoMaxima = (QuantidadeMinimaInteirosModulos*(VocModulosSelcionado *(1-BvocModulosSelcionado*(25-TemperaturaMinima)))).toFixed(4);
 
-        var QuantidadeMaximaPermitida = (TensaoEntradaMaximaInversor/(VocModulosSelcionado * (1-βvocModulosSelcionado * (25-TemperaturaMinima)))).toFixed(4);
+        var QuantidadeMaximaPermitida = (TensaoEntradaMaximaInversor/(VocModulosSelcionado * (1-BvocModulosSelcionado * (25-TemperaturaMinima)))).toFixed(4);
         var QuantidadeInteiraMaximaPermitida = Math.trunc(QuantidadeMaximaPermitida);
-        var QuantidadeMaximaPermitidaTensaoMinima = (QuantidadeInteiraMaximaPermitida*(VmppModulosSelcionado *(1-βvmppModulosSelcionado*(25-TemperaturaMaxima)))).toFixed(4);
-        var QuantidadeMaximaPermitidaTensaoMaxima = (QuantidadeInteiraMaximaPermitida*(VocModulosSelcionado *(1-βvocModulosSelcionado*(25-TemperaturaMinima)))).toFixed(4);
+        var QuantidadeMaximaPermitidaTensaoMinima = (QuantidadeInteiraMaximaPermitida*(VmppModulosSelcionado *(1-BvmppModulosSelcionado*(25-TemperaturaMaxima)))).toFixed(4);
+        var QuantidadeMaximaPermitidaTensaoMaxima = (QuantidadeInteiraMaximaPermitida*(VocModulosSelcionado *(1-BvocModulosSelcionado*(25-TemperaturaMinima)))).toFixed(4);
 
         var QuantidadeModulosMaximoMPPTs = (QuantidadeMaximaInteirosModulos*NumeroMPPTsInversor);
         var QuantidadeAcoselhavelMaximoMPPTS = (QuantidadeModulosMaximoMPPTs*PotenciaSelecionadaModulo/1000).toFixed(4);

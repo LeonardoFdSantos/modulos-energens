@@ -137,15 +137,15 @@ class ModulosComponent extends React.Component {
 
         var PotenciaModuloSelecionado = criarFiltoValores.map(v => v.Potencia);
         var VmppModulosSelcionado= criarFiltoValores.map(v => v.Vmpp);
-        var βvmppModulosSelcionado = criarFiltoValores.map(v => v.βvmpp);
+        var BvmppModulosSelcionado = criarFiltoValores.map(v => v.Bvmpp);
         var VocModulosSelcionado = criarFiltoValores.map(v => v.Voc);
-        var βvocModulosSelcionado = criarFiltoValores.map(v => v.βvoc);
+        var BvocModulosSelcionado = criarFiltoValores.map(v => v.Bvoc);
 
         localStorage.setItem('PotenciaModuloSelecionado', PotenciaModuloSelecionado);
         localStorage.setItem('VmppModulosSelcionado', VmppModulosSelcionado);
-        localStorage.setItem('βvmppModulosSelcionado', βvmppModulosSelcionado);
+        localStorage.setItem('BvmppModulosSelcionado', BvmppModulosSelcionado);
         localStorage.setItem('VocModulosSelcionado', VocModulosSelcionado);
-        localStorage.setItem('βvocModulosSelcionado', βvocModulosSelcionado);
+        localStorage.setItem('BvocModulosSelcionado', BvocModulosSelcionado);
 
 
         return(
@@ -216,17 +216,17 @@ class ModulosComponent extends React.Component {
                             <TableHead>
                                 <TableRow>
                                     <StyledTableCell>Vmpp</StyledTableCell>
-                                    <StyledTableCell align='center'>βvmpp</StyledTableCell>
+                                    <StyledTableCell align='center'>Bvmpp</StyledTableCell>
                                     <StyledTableCell align='center'>Voc</StyledTableCell>
-                                    <StyledTableCell align='center'>βvoc</StyledTableCell>
+                                    <StyledTableCell align='center'>Bvoc</StyledTableCell>
                                 </TableRow>
                             </TableHead>
                             <TableBody>
                                 <StyledTableRow>
                                     <StyledTableCell component="th" scope="row">{criarFiltoValores.map(v => v.Vmpp)}</StyledTableCell>
-                                    <StyledTableCell align='center' component="th" scope="row">{criarFiltoValores.map(v => v.βvmpp)}</StyledTableCell>
+                                    <StyledTableCell align='center' component="th" scope="row">{criarFiltoValores.map(v => v.Bvmpp)}</StyledTableCell>
                                     <StyledTableCell align='center' component="th" scope="row">{criarFiltoValores.map(v => v.Voc)}</StyledTableCell>
-                                    <StyledTableCell align='center' component="th" scope="row">{criarFiltoValores.map(v => v.βvoc)}</StyledTableCell>
+                                    <StyledTableCell align='center' component="th" scope="row">{criarFiltoValores.map(v => v.Bvoc)}</StyledTableCell>
                                 </StyledTableRow>
                             </TableBody>
                         </Table>
