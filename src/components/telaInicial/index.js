@@ -6,10 +6,6 @@ import CalculosComponent from '../calculos';
 import Button from '@mui/material/Button';
 import CalculateOutlinedIcon from '@mui/icons-material/CalculateOutlined';
 
-import Box from '@mui/material/Box';
-import Tabs from '@mui/material/Tabs';
-import Tab from '@mui/material/Tab';
-
 function ShowCalculos(props){
     if(!props.warn){
         return null;
